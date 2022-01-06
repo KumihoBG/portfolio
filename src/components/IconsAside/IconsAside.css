@@ -1,0 +1,40 @@
+.icons {
+    position: absolute;
+    right: -25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icons li {
+    list-style: none;
+}
+
+.icons li a {
+    text-decoration: none;
+    width: 60px;
+    height: 60px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin: 5px 0;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    color: #000;
+}
+
+.icons li a img {
+    height: 50px;
+    width: 50px;
+}
+
+.icons li a img {
+    transform: scale(0.6);
+    transition: 0.5s;
+}
+
+.icons li a:hover img {
+    transform: scale(0.7) rotate(360deg);
+}
