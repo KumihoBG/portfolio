@@ -1,10 +1,18 @@
-.icons {
+.icons-container {
+    border: 1px solid green;
     position: absolute;
-    right: -25px;
+    bottom: -25px;
+    left: 10px;
+    width: 50%;
+    height: auto;
     display: flex;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
 }
 
 .icons li {
