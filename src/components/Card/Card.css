@@ -1,0 +1,121 @@
+.home-content-btn {
+  display: inline-block;
+  padding: 15px 30px;
+  background: #fff;
+  color: darkorchid;
+  margin-top: 20px;
+  border-radius: 30px;
+  font-size: 1.2em;
+  font-weight: 500;
+  text-decoration: none;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateX(-100px);
+  width: 80vw;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+  padding: 30px;
+  padding-left: 110px;
+  margin: 2% 0;
+}
+
+.card-container .card {
+  position: relative;
+  width: 70%;
+  height: 400px;
+  display: flex;
+  transition: 0.5s;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.card-container .card img {
+    position: absolute;
+    bottom: 0;
+    left: 75%;
+    transform: translateX(-60%);
+    height: 400px;
+    transition: 0.5s;
+}
+
+.card-container .card:hover img {
+    left: 80%;
+    height: 500px;
+}
+
+.card-content {
+  position: relative;
+  width: 50%;
+  left: 10%;
+  padding: 20px 20px 20px 40px;
+  transition: 0.5s;
+}
+
+.card-content:hover {
+  left: 0;
+}
+
+.card-content h2 {
+  color: darkorchid;
+  text-transform: uppercase;
+  font-size: 2.2em;
+  line-height: 1em;
+  margin-bottom: 20px;
+}
+
+.card-content p {
+  color: #fff;
+}
+
+@media (max-width: 991px) {
+  .card-container .card {
+    width: auto;
+    max-width: 600px;
+    align-items: flex-start;
+  }
+
+  .card-container .card:hover {
+    height: 600px;
+  }
+
+  .card-container .card:hover img {
+    left: 50%;
+    height: 350px;
+  }
+
+  .card-content {
+    width: 100%;
+    left: 0;
+    padding: 40px;
+  }
+}
+
+@media (max-width: 767px) {
+  .card-container {
+    flex-direction: column;
+  }
+
+  .card-container .card {
+    margin: 40px 20px;
+  }
+}
+
+@media (max-width: 420px) {
+  .card-container .card .card-content {
+    padding: 30px;
+  }
+
+  .card-container .card:hover img {
+    height: 300px;
+  }
+}

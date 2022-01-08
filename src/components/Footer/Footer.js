@@ -1,9 +1,13 @@
 import React from 'react';
+import '../Footer/Footer.css';
 
 function Footer() {
     return (
         <footer>
-            <a href='https://www.freepik.com/vectors/background'>Background vector created by freepik - www.freepik.com</a>
+            <small className='footer-small'>
+                Copyright &copy; 2022 | Pavleta Taseva | All rights reserved<br />
+                <a href='https://www.freepik.com/psd/woman'>Woman psd created by freepik - www.freepik.com</a>
+            </small>
         </footer>
     )
 }

@@ -1,6 +1,6 @@
 .content {
   transform: translateX(-100px);
-  max-width: 700px;
+  max-width: 70%;
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
   border-radius: 20px;
   backdrop-filter: blur(10px);
@@ -22,7 +22,7 @@
     color: darkorchid;
 }
 
-.content a {
+.content .home-content-btn {
     display: inline-block;
     padding: 15px 30px;
     background: #fff;
