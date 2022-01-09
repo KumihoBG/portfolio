@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../Card/Card.css';
-import pavleta from '../../images/2.png';
+import pavleta from '../../images/me.png';
 
 function Card() {
     return (

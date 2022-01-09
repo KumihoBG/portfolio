@@ -50,10 +50,58 @@ header {
     border-left: 1px solid rgba(255, 255, 255, 0.25);
 }
 
-.logo {
+.logo span {
     color: var(--dark-blue);
     font-weight: 700;
-    font-size: 2em;
+    font-size: 1.5em;
+    padding: 3px;
+    display: table-cell;
+    text-shadow: 0 15px 25px rgba(255, 255, 255, 0.8);
+}
+
+.logo:hover span {
+    animation: jump 0.5s infinite;
+    cursor: pointer;
+}
+
+@keyframes jump {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+.logo span:nth-child(1) {
+    animation-delay: 0.1s;
+}
+
+.logo span:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.logo span:nth-child(3) {
+    animation-delay: 0.3s;
+}
+
+.logo span:nth-child(4) {
+    animation-delay: 0.4s;
+}
+
+.logo span:nth-child(5) {
+    animation-delay: 0.5s;
+}
+
+.logo span:nth-child(6) {
+    animation-delay: 0.6s;
+}
+
+.logo span:nth-child(7) {
+    animation-delay: 0.7s;
 }
 
 header ul {
@@ -87,5 +135,12 @@ header ul li {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 90%;
+    width: 100%;
+}
+
+.call-to-action {
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    text-transform: uppercase;
 }

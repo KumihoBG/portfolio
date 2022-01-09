@@ -1,14 +1,12 @@
-import { Link } from 'react-router-dom';
+import React from 'react';
 import '../HomeContent/HomeContent.css';
-
-import React from 'react'
 
 function HomeContent() {
     return (
         <div className='content'>
             <h2>Who am I?</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est provident facilis reprehenderit rerum corrupti non! Recusandae natus ut asperiores obcaecati sapiente quasi hic tenetur quia libero non quo, laborum provident.</p>
-            <Link className='home-content-btn' to='/details'>Read More</Link>
+            <p>My name is Pavleta Taseva. I am a junior JavaScript programmer who is just starting out in the world of programming, but who is also full of great enthusiasm and desire to learn and develop.</p><br />
+            <p>I want to be part of original projects, meet great colleagues and learn many new technologies. Let's work together!</p>
         </div>
     )
 }

@@ -1,0 +1,86 @@
+:root {
+    --light-blue: #78c8ed;
+    --dark-blue: #1783b5;
+}
+
+.menu {
+    position: relative;
+    width: 600px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu li {
+    position: absolute;
+    left: -110%;
+    list-style: none;
+    transform-origin: 300px;
+    transition: 0.5s;
+    transition-delay: calc(0.1s * var(--i));
+    transform: rotate(0deg) translateX(100px);
+}
+
+.action {
+    position: absolute;
+    bottom: -45px;
+    color: #fff;
+    background: var(--dark-blue);
+    border: 1px solid #78c8ed;
+    border-radius: 15px;
+    padding: 5px 15px;
+    text-align: center;
+    width: 100%;
+}
+
+.menu.active li {
+    transform: rotate(calc(360deg / 7 * var(--i)));
+}
+
+.menu li ion-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    background: #fff;
+    border-radius: 50%;
+    padding: 20%;
+    transform: rotate(calc(360deg / -7 * var(--i)));
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.15);
+    color: var(--dark-blue);
+    transition: 0.5s;
+}
+
+.menu li ion-icon:hover {
+    color: var(--light-blue);
+}
+
+.toggle {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: #fff url('../../images/me.png') no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10000;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.15);
+    transition: transform 1.25s;
+    border: 4px solid var(--dark-blue);
+}
+
+.video a {
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    display: block;
+    position: absolute;
+    bottom: 0;
+}
+
+
+

@@ -1,6 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import Card from '../Card/Card.js';
+import CircularItems from '../CircularItems/CircularItems.js';
 import '../Home/Home.css';
 import HomeContent from '../HomeContent/HomeContent.js';
 import Icons from '../Icons/Icons.js';
@@ -12,7 +13,17 @@ function Home() {
         <section className='home-section'>
             <div className="container">
                 <header>
-                    <h2 className='logo'>Pavleta Taseva</h2>
+                    <h2 className='logo'>
+                        <span>P</span>
+                        <span>a</span>
+                        <span>v</span>
+                        <span>l</span>
+                        <span>e</span>
+                        <span>t</span>
+                        <span>a</span>
+                        <span> </span>
+                        <span>T.</span>
+                    </h2>
                     <ul>
                         <li>
                             <NavLink className='hire-link' activeClassName='active' to='/about' alt='About Pavleta'>About Me</NavLink>
@@ -26,6 +37,10 @@ function Home() {
                 <ImageBox />
                 <Icons />
             </div>
+        </section>
+        <section id="info" className='about-me'>
+            <h1 className='call-to-action'>Get to know me better</h1>
+            <CircularItems />
         </section>
         <section className='about'>
             <Card />

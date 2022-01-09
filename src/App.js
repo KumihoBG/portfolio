@@ -16,6 +16,12 @@ function App() {
             <Footer />
           </div>
         } />
+        <Route path='/about' element={
+          <div>
+            <Home />
+            <Footer />
+          </div>
+        } />
       </Routes>
       </main>
     </div>
