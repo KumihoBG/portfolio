@@ -40,6 +40,7 @@ function Home() {
         </section>
         <section id="info" className='about-me'>
             <h1 className='call-to-action'>Get to know me better</h1>
+            <h3>My video introduction</h3>
             <CircularItems />
         </section>
         <section className='about'>

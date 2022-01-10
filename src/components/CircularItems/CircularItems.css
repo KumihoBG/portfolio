@@ -5,18 +5,19 @@
 
 .menu {
     position: relative;
-    width: 600px;
-    height: 600px;
+    width: 800px;
+    height: 800px;
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 3%;
 }
 
 .menu li {
     position: absolute;
-    left: -110%;
+    left: -113%;
     list-style: none;
-    transform-origin: 300px;
+    transform-origin: 400px;
     transition: 0.5s;
     transition-delay: calc(0.1s * var(--i));
     transform: rotate(0deg) translateX(100px);
@@ -55,12 +56,14 @@
 
 .menu li ion-icon:hover {
     color: var(--light-blue);
+    position: relative;
+    z-index: 1;
 }
 
 .toggle {
     position: absolute;
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     background: #fff url('../../images/me.png') no-repeat center center/cover;
     display: flex;
     justify-content: center;
@@ -70,15 +73,6 @@
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.15);
     transition: transform 1.25s;
     border: 4px solid var(--dark-blue);
-}
-
-.video a {
-    text-decoration: none;
-    color: #fff;
-    text-align: center;
-    display: block;
-    position: absolute;
-    bottom: 0;
 }
 
 .box {
@@ -94,10 +88,10 @@
 ion-icon:hover + .box,.box:hover{
     display: inline-block;
     position: absolute;
-    top: -130%;
+    top: -120%;
     z-index: 99999;
-    width: 400px;
-    height: 300px;
+    width: 500px;
+    height: 400px;
     transition: 0.5s;
     transform: rotate(calc(360deg / -7 * var(--i)));
 }

@@ -136,11 +136,22 @@ header ul li {
     justify-content: center;
     align-items: center;
     width: 100%;
+    height: auto;
 }
 
-.call-to-action {
+.call-to-action,
+.about-me h3 {
     color: #fff;
     text-align: center;
     padding: 20px;
     text-transform: uppercase;
+}
+
+.about-me {
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
 }

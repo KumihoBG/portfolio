@@ -5,7 +5,7 @@ import '../YoutubeEmbed/YoutubeEmbed.css';
 const YoutubeEmbed = ({ embedId }) => (
   <div className="video-responsive">
     <iframe
-      width="400"
+      width="300"
       height="250"
       src={`https://www.youtube.com/embed/${embedId}`}
       frameBorder="0"
