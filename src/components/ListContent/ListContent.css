@@ -1,0 +1,21 @@
+.list-content {
+    margin-bottom: 20px;
+    position: relative;
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    margin: 20px 0;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.list-content:hover {
+    background: rgba(255, 255, 255, 0.5);
+    box-shadow: -15px 20px 20px rgba(0, 0, 0, 0.5);
+    transform: scale(1.05) translateX(10px) translateY(-5px);
+    display: block;
+}
+
+.show-me {
+    padding: 15px;
+}

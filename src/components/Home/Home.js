@@ -6,6 +6,8 @@ import '../Home/Home.css';
 import HomeContent from '../HomeContent/HomeContent.js';
 import Icons from '../Icons/Icons.js';
 import ImageBox from '../ImageBox/ImageBox.js';
+import Projects from '../Projects/Projects.js';
+import SkillsList from '../SkillsList/SkillsList.js';
 
 function Home() {
     return (
@@ -38,11 +40,14 @@ function Home() {
                 <Icons />
             </div>
         </section>
+        
         <section id="info" className='about-me'>
-            <h1 className='call-to-action'>Get to know me better</h1>
-            <h3>My video introduction</h3>
             <CircularItems />
+            <SkillsList />
         </section>
+
+        <Projects />
+
         <section className='about'>
             <Card />
         </section>

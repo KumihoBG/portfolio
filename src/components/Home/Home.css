@@ -139,19 +139,20 @@ header ul li {
     height: auto;
 }
 
-.call-to-action,
-.about-me h3 {
-    color: #fff;
-    text-align: center;
-    padding: 20px;
-    text-transform: uppercase;
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Montserrat&display=swap');
+
+.logo span {
+    font-family: 'Dancing Script', cursive;
+    font-size: 55px;
 }
 
 .about-me {
     padding: 2%;
     display: flex;
-    justify-content: center;
+    flex-basis: 100%;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
+    width: 90vw;
     height: auto;
+    margin: 0 auto;
 }

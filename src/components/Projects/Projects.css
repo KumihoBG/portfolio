@@ -1,0 +1,9 @@
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+    width: 90%;
+    height: 100%;
+    padding: 5%;
+}
+
