@@ -14,7 +14,7 @@ function ProjectComponent({ image, alt, linkOne, linkTwo, title, description }) 
         <div className="project-card">
           <h1>{title}</h1>
           <p>{description}</p>
-          <ion-icon name="logo-github"></ion-icon><a href={linkOne} rel="noreferrer" target="_blank">View on GitHub</a>
+          <a href={linkOne} rel="noreferrer" target="_blank"><ion-icon name="logo-github"></ion-icon> View on GitHub</a>
         </div>
       </div>
     </div>

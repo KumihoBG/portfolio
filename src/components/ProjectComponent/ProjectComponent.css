@@ -78,6 +78,10 @@
 }
 
 .project-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   padding: 10%;
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
   border-radius: 20px;
@@ -85,6 +89,7 @@
   border: 1px solid rgba(255, 255, 255, 0.25);
   border-top: 1px solid rgba(255, 255, 255, 0.5);
   border-left: 1px solid rgba(255, 255, 255, 0.5);
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.1), #fff);
 }
 
 .project-card h1 {
@@ -98,31 +103,23 @@
 
 .project-card ion-icon {
   margin-right: 10px;
-  margin-top: 10px;
-  font-size: 22px;
-  color: #fff;
+  font-size: 18px;
+  color: var(--dark-blue);
 }
 
 .project-card a {
-  color: var(--light-blue);
+  color: var(--dark-blue);
   background: #fff;
   padding: 5px 15px;
-  margin-top: 10px;
   font-size: 18px;
   border-radius: 10px;
   text-decoration: none;
   cursor: pointer;
+  border: 1px solid var(--dark-blue);
 }
 
 .project-card a:hover {
   opacity: 0.9;
   color: #fff;
   background: var(--light-blue);
-  border: 1px solid var(--dark-blue);
-  padding: 5px 15px;
-  margin-top: 10px;
-  font-size: 18px;
-  border-radius: 10px;
-  text-decoration: none;
-  cursor: pointer;
 }
