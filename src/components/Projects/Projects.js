@@ -1,11 +1,11 @@
 import React from 'react';
 import '../Projects/Projects.css';
-import Project from '../Project/Project.js';
+import ProjectsGroup from '../ProjectsGroup/ProjectsGroup.js';
 
 function Projects() {
     return (
         <section className='projects-container'>
-            <Project />
+            <ProjectsGroup />
         </section>
     )
 }

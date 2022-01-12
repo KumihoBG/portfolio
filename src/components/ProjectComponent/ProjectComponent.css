@@ -1,0 +1,128 @@
+.project {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100vw;
+  height: auto;
+}
+
+.project-image {
+  margin: 0 auto;
+}
+
+.project-image img {
+  width: 800px;
+  height: 397px;
+  z-index: 3;
+  -webkit-box-shadow: 10px 10px 93px -16px rgba(255, 255, 255, 1);
+  -moz-box-shadow: 10px 10px 93px -16px rgba(255, 255, 255, 1);
+  box-shadow: 10px 10px 93px -16px rgba(255, 255, 255, 1);
+  border-radius: 25px;
+}
+
+.view-project {
+  position: relative;
+  bottom: 35%;
+  left: 73%;
+  padding: 10px 15px;
+  text-decoration: none;
+  z-index: 1000;
+  color: var(--dark-blue);
+  background: linear-gradient(to right, #fff, var(--dark-blue));
+  font-weight: 600;
+  font-size: 24px;
+  display: block;
+  letter-spacing: 1px;
+  width: 30%;
+  border-radius: 30px;
+  border-bottom-right-radius: 0;
+  margin-bottom: 30px;
+  -webkit-box-shadow: 10px 10px 93px -16px var(--dark-blue);
+  -moz-box-shadow: 10px 10px 93px -16px var(--dark-blue);
+  box-shadow: 10px 10px 93px -16px var(--dark-blue);
+}
+
+.view-project::before {
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 30px;
+  bottom: -30px;
+  right: 0;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  z-index: 2;
+  background: #0c415a;
+}
+
+.view-project::after {
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 15px;
+  bottom: -15px;
+  right: 0;
+  background: var(--dark-blue);
+}
+
+.view-project:hover {
+  transform: translateY(-10px);
+  transition: 0.5s;
+  transition-timing-function: ease-in-out;
+}
+
+.project-info {
+  width: 100%;
+  padding: 10%;
+  text-align: justify;
+  margin-right: 10%;
+}
+
+.project-card {
+  padding: 10%;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.project-card h1 {
+  color: var(--dark-blue);
+  margin-bottom: 20px;
+}
+
+.project-card p {
+  padding: 0 3% 3% 0;
+}
+
+.project-card ion-icon {
+  margin-right: 10px;
+  margin-top: 10px;
+  font-size: 22px;
+  color: #fff;
+}
+
+.project-card a {
+  color: var(--light-blue);
+  background: #fff;
+  padding: 5px 15px;
+  margin-top: 10px;
+  font-size: 18px;
+  border-radius: 10px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.project-card a:hover {
+  opacity: 0.9;
+  color: #fff;
+  background: var(--light-blue);
+  border: 1px solid var(--dark-blue);
+  padding: 5px 15px;
+  margin-top: 10px;
+  font-size: 18px;
+  border-radius: 10px;
+  text-decoration: none;
+  cursor: pointer;
+}
