@@ -1,0 +1,44 @@
+.case-study {
+    grid-area: study;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.case-study-title {
+    color: #d400d4;
+    padding: 20px 20px 20px 0;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.subtitle {
+    width: 80%;
+    font-weight: 300;
+    font-size: 19px;
+    text-align: justify;
+    line-height: 1.5;
+    color: #ccc;
+}
+
+.right-content {
+    width: 80%;
+    font-weight: 200;
+    text-align: center;
+}
+
+.right-content h3 {
+    margin: 20px 0;
+    font-size: 20px;
+    color: #00ccff;
+    padding: 10px 10px 10px 0;
+    letter-spacing: 1px;
+}
+
+.right-content p {
+    font-size: 18px;
+    color: #ccc;
+    padding: 20px;
+    border: 0.5px solid #ccc;
+    text-align: justify;
+    white-space: pre-line;
+}

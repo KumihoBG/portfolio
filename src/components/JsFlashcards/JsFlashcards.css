@@ -1,0 +1,27 @@
+.case-study-main {
+    width: 100%;
+    background: linear-gradient(to bottom, #000, #1c1320, #3c2846);
+    overflow: hidden;
+}
+
+.case-study-container {
+    width: 100%;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 3% 5%;
+    display: grid;
+    grid-template-areas: 'flashcard study';
+    grid-gap: 5rem;
+}
+
+.back-link {
+    color: #00ccff;
+    display: block;
+    text-decoration: none;
+    padding: 30px 7%;
+    font-size: 20px;
+}
+
+.case-study-main ion-icon {
+    color: #00ccff;
+}
