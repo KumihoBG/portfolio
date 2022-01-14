@@ -7,7 +7,8 @@ import mathTrainer from '../../images/math-trainer.png';
 
 function ProjectsGroup() {
   return (
-    <div className="group">
+    <div id="projects" className="group">
+      <h1 className="projects-title">My Projects</h1>
       <ProjectComponent 
       projectName={'js-flashcards'} 
       image={jsFlashcards} alt={"JavaScript Flashcards Trainer"} 

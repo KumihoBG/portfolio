@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-scroll';
 import Card from '../Card/Card.js';
 import CircularItems from '../CircularItems/CircularItems.js';
 import '../Home/Home.css';
@@ -28,10 +28,27 @@ function Home() {
                     </h2>
                     <ul>
                         <li>
-                            <NavLink className='hire-link' activeClassName='active' to='/about' alt='About Pavleta'>About Me</NavLink>
+                            <Link 
+                            className='link' 
+                            activeClassName='active' 
+                            to='menu' 
+                            alt='About Pavleta Taseva'
+                            spy={true}
+                            smooth={true}
+                            duration={500}>
+                                About Me
+                            </Link>
                         </li>
                         <li>
-                            <NavLink className='hire-link' activeClassName='active' to='/hire' alt='Hire Pavleta'>Hire Me</NavLink>
+                            <Link className='link' 
+                            activeClassName='active' 
+                            to='projects' 
+                            alt='My projects'
+                            spy={true}
+                            smooth={true}
+                            duration={500}>                            
+                                My Projects
+                            </Link>
                         </li>
                     </ul>
                 </header>
@@ -41,7 +58,7 @@ function Home() {
             </div>
         </section>
         
-        <section id="info" className='about-me'>
+        <section className='about-me'>
             <CircularItems />
             <SkillsList />
         </section>

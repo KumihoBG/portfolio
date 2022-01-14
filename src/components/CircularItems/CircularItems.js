@@ -13,7 +13,7 @@ function CircularItems() {
         <div className="menu-container">
             <h1 className='call-to-action'>Get to know me better</h1>
             <h3> Through my video introduction</h3>
-            <div className={isActive ? "menu" : 'menu active'}>
+            <div id="menu" className={isActive ? "menu" : 'menu active'}>
             <div onClick={handleToggle} className="toggle">
                 <p className="action">Click Me</p>
                 <li className="video" style={{ '--i': 0 }}>
