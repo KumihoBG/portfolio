@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import '../Card/Card.css';
 import pavleta from '../../images/me.png';
 
@@ -10,7 +9,7 @@ function Card() {
                 <div className="card-content">
                     <h2>Hire Me</h2>
                     <p>If you like my projects and would like to give me a chance to work for you, you can download my resume by clicking the button below.</p>
-                    <Link className='home-content-btn' to='/resume'>Download my Resume</Link>
+                    <a className='home-content-btn' target="_blank" href='/documents/CV-EN-Pavleta Taseva.pdf' download>Download my Resume</a>
                 </div>
                 <img src={pavleta} alt="Pavleta Taseva" />
             </div>

@@ -1,6 +1,6 @@
 footer {
     width: 100%;
-    height: 5vh;
+    height: 10vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,4 +12,9 @@ footer {
     color: #fff;
     font-size: 1em;
     font-weight: 300;
+}
+
+.footer-small a {
+    text-decoration: none;
+    color: #fff;
 }
