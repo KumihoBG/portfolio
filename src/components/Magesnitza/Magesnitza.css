@@ -1,0 +1,52 @@
+.case-study-magesnitza {
+    width: 100%;
+    background: linear-gradient(to bottom, #000, #032c36, #071833);
+    overflow: hidden;
+    margin: 0 auto;
+    padding-left: 0;
+}
+
+.magesnitza-container {
+    width: 100%;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 3% 5%;
+    display: grid;
+    grid-template-areas: 'images study';
+    grid-gap: 5rem;
+}
+
+.back-link {
+    color: #00ccff;
+    display: block;
+    text-decoration: none;
+    padding: 30px 7%;
+    font-size: 20px;
+}
+
+.case-study-magesnitza ion-icon {
+    color: #00ccff;
+}
+
+.magesnitza-images {
+    display: block;
+    border-radius: 25px;
+    width: 90%;
+}
+
+.images {
+    grid-area: images;
+    padding: 0;
+    margin: 0;
+}
+
+.images h3 {
+    padding: 3%;
+    color: #ccc;
+    margin-top: 15%;
+    width: 90%;
+}
+
+.magesnitza-container h1 {
+    color: #4fbeda;
+}

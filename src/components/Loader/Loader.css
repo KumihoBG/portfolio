@@ -1,0 +1,122 @@
+.loading {
+  position: relative;
+  grid-area: loader;
+  width: 30vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  animation: animateBg 10s linear infinite;
+}
+
+.sprite {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  transform: translate(-50%, -50%);
+}
+
+.robot {
+  position: absolute;
+  top: 10%;
+  left: 100%;
+  background: transparent url("../../images/spritesheet.png") 0 0 no-repeat;
+  width: 400px;
+  height: 524px;
+  transform: translate(-50%, -50%);
+  margin: 0 auto;
+  animation: robot 1s steps(15) infinite;
+}
+
+.p-loading {
+  position: absolute;
+  top: 150%;
+  left: 70%;
+  width: 40%;
+  height: 10px;
+  color: #ffd633;
+  font-size: 30px;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 1px #ff8c66;
+  text-align: center;
+  font-family: "Press Start 2P", cursive;
+  z-index: 10;
+}
+
+.progress {
+  position: absolute;
+  top: 70%;
+  height: 10px;
+  width: 50%;
+  border: 10px solid #ffd633;
+  opacity: 0.8;
+  border-radius: 15px;
+}
+
+.progress .color {
+  background-color: #000;
+  width: 0px;
+  height: 8px;
+  border-radius: 15px;
+  animation: progress 4s infinite linear;
+}
+
+@keyframes progress {
+  0% {
+    width: 0%;
+  }
+  25% {
+    width: 50%;
+  }
+  50% {
+    width: 75%;
+  }
+  75% {
+    width: 85%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes animateBg {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+  100% {
+    filter: hue-rotate(360deg);
+  }
+}
+
+@keyframes robot {
+  100% {
+    background-position: -6165px, 0;
+  }
+}
+
+.loading h1 {
+  position: absolute;
+  top: 0;
+  color: #fff;
+  font-size: 30px;
+}
+
+.math-images {
+  margin-top: 0;
+  width: 35vw;
+}
+
+.math-images h3 {
+  color: #ccc;
+  margin-top: 20%;
+  margin-bottom: 5%;
+}
+
+.case-study-math-container h1 {
+  color: rgb(211, 211, 78);
+}
+
+.case-study-math-container h3 {
+  color: rgb(151, 151, 80);
+}

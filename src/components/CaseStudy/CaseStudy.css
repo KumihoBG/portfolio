@@ -2,6 +2,7 @@
     grid-area: study;
     width: 80%;
     margin: 0 auto;
+    padding: 0;
 }
 
 .case-study-title {
@@ -39,6 +40,11 @@
     color: #ccc;
     padding: 20px;
     border: 0.5px solid #ccc;
+    text-align: justify;
+    white-space: pre-line;
+}
+
+.case-study-title {
     text-align: justify;
     white-space: pre-line;
 }
