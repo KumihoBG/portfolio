@@ -25,7 +25,6 @@
 .menu li {
     position: absolute;
     left: -113%;
-    list-style: none;
     transform-origin: 400px;
     transition: 0.5s;
     transition-delay: calc(0.1s * var(--i));
