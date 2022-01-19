@@ -14,14 +14,6 @@
     grid-gap: 5rem;
 }
 
-.back-link {
-    color: #00ccff;
-    display: block;
-    text-decoration: none;
-    padding: 30px 7%;
-    font-size: 20px;
-}
-
 .case-study-main ion-icon {
     color: #00ccff;
 }

@@ -14,14 +14,6 @@
     grid-gap: 0;
 }
 
-.back-link {
-    color: #00ccff;
-    display: block;
-    text-decoration: none;
-    padding: 30px 7%;
-    font-size: 20px;
-}
-
 .case-study-math-trainer ion-icon {
     color: #00ccff;
 }

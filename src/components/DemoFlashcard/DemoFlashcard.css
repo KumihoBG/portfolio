@@ -147,7 +147,6 @@
 }
 
 .listed-link {
-  text-decoration: none;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -162,7 +161,6 @@
   background: #d400d4;
   color: #fff;
   letter-spacing: 1px;
-  text-decoration: none;
   border-radius: 15px;
   font-weight: 500;
 }

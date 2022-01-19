@@ -24,7 +24,6 @@
   bottom: 35%;
   left: 73%;
   padding: 10px 15px;
-  text-decoration: none;
   z-index: 1000;
   color: var(--dark-blue);
   background: linear-gradient(to right, #fff, var(--dark-blue));
@@ -113,7 +112,6 @@
   padding: 5px 15px;
   font-size: 18px;
   border-radius: 10px;
-  text-decoration: none;
   cursor: pointer;
   border: 1px solid var(--dark-blue);
 }
