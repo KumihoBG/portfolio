@@ -19,9 +19,9 @@ function Loader() {
             </div>
             <div className='math-images'>
                 <h3>Simple home page</h3>
-                <img className='magesnitza-images' src={MathTrainerImg1} alt="The World of Magesnitza" />
+                <img className='study-images' src={MathTrainerImg1} alt="The World of Magesnitza" />
                 <h3>Immediate results, no confusion.</h3>
-                <img className='magesnitza-images' src={MathTrainerImg2} alt="The story and how it all began" />
+                <img className='study-images' src={MathTrainerImg2} alt="The story and how it all began" />
             </div>
         </div>
     )

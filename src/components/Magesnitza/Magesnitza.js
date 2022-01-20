@@ -26,13 +26,13 @@ function Magesnitza() {
                 result={'The work on this project was extremely interesting and inspiring. I managed to consolidate my knowledge in the field of templating, which was a great preparation for the upcoming course on React.js.\n\nAgain, I managed to practice my knowledge of HTML & CSS, trying to create interesting content. In the end, I felt like I was telling a fantastic story - but now no longer dressed in words, but in code.'}/>
                 <div className='images'>
                     <h3>The map of the world</h3>
-                    <img className='magesnitza-images' src={magesnitzaWorld} alt="The World of Magesnitza" />
+                    <img className='study-images' src={magesnitzaWorld} alt="The World of Magesnitza" />
                     <h3>This is my way of revealing myself and telling about my work.</h3>
-                    <img className='magesnitza-images' src={magesnitzaSS} alt="The story and how it all began" />
+                    <img className='study-images' src={magesnitzaSS} alt="The story and how it all began" />
                     <h3>And it was also a way to test my own skills creating the profile page.</h3>
-                    <img className='magesnitza-images' src={magesnitzaSS2} alt="Profile page of Magesnitza" />
+                    <img className='study-images' src={magesnitzaSS2} alt="Profile page of Magesnitza" />
                     <h3>Working contact form and working newletter are a must when it comes to author's pages.</h3>
-                    <img className='magesnitza-images' src={magesnitzaSS3} alt="Newsletter"/>
+                    <img className='study-images' src={magesnitzaSS3} alt="Newsletter"/>
                 </div>
             </div>
         </div>

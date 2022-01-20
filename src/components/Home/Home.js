@@ -58,6 +58,9 @@ function Home() {
             </div>
         </section>
         
+        <h1 className='call-to-action'>Get to know me better</h1>
+        <h3 className='call-to-action-h3'> Through my video introduction</h3>
+
         <section className='about-me'>
             <CircularItems />
             <SkillsList />

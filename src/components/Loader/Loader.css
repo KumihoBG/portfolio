@@ -120,3 +120,33 @@
 .case-study-math-container h3 {
   color: rgb(151, 151, 80);
 }
+
+/* start: media queries */
+@media (max-width: 1280px) {
+  .loading {
+    position: relative;
+    grid-area: loader;
+    width: 40vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    animation: animateBg 10s linear infinite;
+  }
+
+  .robot {
+    transform: translate(-40%, -40%);
+  }
+
+  .p-loading {
+    top: 170%;
+    font-size: 30px;
+  }
+
+  .progress {
+    top: 75%;
+  }  
+}
+
+/* end: 1280px */

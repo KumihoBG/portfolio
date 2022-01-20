@@ -11,8 +11,6 @@ function CircularItems() {
 
     return (
         <div className="menu-container">
-            <h1 className='call-to-action'>Get to know me better</h1>
-            <h3> Through my video introduction</h3>
             <div id="menu" className={isActive ? "menu" : 'menu active'}>
             <div onClick={handleToggle} className="toggle">
                 <p className="action">Click Me</p>

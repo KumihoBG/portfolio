@@ -27,7 +27,7 @@
     color: #00ccff;
 }
 
-.magesnitza-images {
+.study-images {
     display: block;
     border-radius: 25px;
     width: 90%;
@@ -49,3 +49,12 @@
 .magesnitza-container h1 {
     color: #4fbeda;
 }
+
+/* start: media queries */
+@media (max-width: 1280px) {
+    .study-images {
+        width: 120%;
+    }
+}
+
+/* end: 1280px */

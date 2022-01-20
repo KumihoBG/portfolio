@@ -48,3 +48,22 @@
     text-align: justify;
     white-space: pre-line;
 }
+
+/* start: media queries */
+@media (max-width: 1280px) {
+    .case-study {
+        width: 90%;
+        padding-left: 35px;
+    }
+    
+    .right-content {
+        width: 100%;
+    }
+
+    .subtitle {
+        width: 100%;
+    }
+    
+  }
+  /* end: 1280px */
+  
