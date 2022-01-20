@@ -56,7 +56,7 @@
 /* start: media queries */
 @media (max-width: 1280px) {
     .skills-list-container {
-        width: 90%;
+        width: 80%;
         padding: 5%;
     }
 }

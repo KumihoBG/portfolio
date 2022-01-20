@@ -44,3 +44,13 @@
 .icons li a:hover img {
     transform: scale(0.7) rotate(360deg);
 }
+
+/* start: media queries */
+@media (max-width: 1280px) {
+    .icons li a {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+/* end: 1280px */

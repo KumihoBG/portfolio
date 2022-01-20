@@ -103,6 +103,14 @@
   .card-container .card img {
     display: none;
   }
+
+  .card-content h2 {
+    font-size: 2em;
+  }
+
+  .home-content-btn {
+    font-size: 1em;
+  }
 }
 /* end: 1280px */
 

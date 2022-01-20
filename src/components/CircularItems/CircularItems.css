@@ -110,3 +110,16 @@ ion-icon:hover + .box,.box:hover{
     font-weight: 500;
     margin-bottom: 10px;
 }
+
+/* start: media queries */
+@media (max-width: 1280px) {
+    .menu {
+        margin-top: 0;
+    }
+    .menu li {
+        transform-origin: 350px;
+        left: -95%;
+    }
+}
+
+/* end: 1280px */

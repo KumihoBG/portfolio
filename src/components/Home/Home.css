@@ -195,7 +195,13 @@ header ul li {
 
   .call-to-action-h3 {
     padding: 15px;
-    font-size: 25px;
+    font-size: 23px;
+  }
+
+  .link {
+    font-weight: 400;
+    padding: 8px 15px;
+    font-size: 1em;
   }
 }
 /* end: 1280px */

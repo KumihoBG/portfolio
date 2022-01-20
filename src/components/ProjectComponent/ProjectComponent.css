@@ -145,5 +145,14 @@
     padding: 0;
     margin: 0 auto;
   }
+
+  .project-card {
+    padding: 5%;
+  }
+
+  .view-project {
+    font-size: 21px;
+    padding-left: 20px;
+  }
 }
 /* end: 1280px */

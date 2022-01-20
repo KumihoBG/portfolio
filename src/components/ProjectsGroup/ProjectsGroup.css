@@ -12,5 +12,9 @@
     padding: 0;
     height: auto;
   }
+
+  .projects-title {
+    font-size: 30px;
+  }
 }
 /* end: 1280px */
