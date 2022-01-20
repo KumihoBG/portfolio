@@ -19,3 +19,11 @@
 .show-me {
     padding: 15px;
 }
+
+/* start: media queries */
+@media (max-width: 1280px) {
+    .list-content {
+        padding: 30px;
+    }
+}
+/* end: 1280px */

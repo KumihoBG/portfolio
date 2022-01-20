@@ -124,3 +124,16 @@ ion-icon:hover + .box,.box:hover{
     padding: 20px;
     font-size: 30px;
 }
+
+/* start: media queries */
+@media (max-width: 1280px) {
+    .call-to-action {
+        font-size: 30px;
+    }
+
+    .about-me h3 {
+        padding: 15px;
+        font-size: 25px;
+    }
+}
+/* end: 1280px */

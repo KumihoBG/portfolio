@@ -121,3 +121,29 @@
   color: #fff;
   background: var(--light-blue);
 }
+
+/* start: media queries */
+@media (max-width: 1280px) {
+  .project {
+    grid-template-rows: repeat(3, 0.2fr);
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+    padding: 0;
+    grid-gap: 0;
+  }
+
+  .project-image {
+    width: 800px;
+    height: 550px;
+    padding: 0;
+    margin-bottom: 0;
+  }
+
+  .project-info {
+    width: 750px;
+    height: 400px;
+    padding: 0;
+    margin: 0 auto;
+  }
+}
+/* end: 1280px */

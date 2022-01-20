@@ -1,156 +1,199 @@
 :root {
-    --light-blue: #78c8ed;
-    --dark-blue: #1783b5;
+  --light-blue: #78c8ed;
+  --dark-blue: #1783b5;
 }
 
 .home {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .home-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 50px;
 }
 
 .container {
-    position: relative;
-    width: calc(90% - 90px);
-    min-height: calc(100vh - 280px);
-    min-height: 300px;
-    background: rgba(255, 255, 255, 0.5);
-    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.05);
-    border-radius: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 60px;
+  position: relative;
+  width: calc(90% - 90px);
+  min-height: calc(100vh - 280px);
+  min-height: 300px;
+  background: rgba(255, 255, 255, 0.5);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px;
 }
 
 header {
-    position: absolute;
-    top: -40px;
-    right: 20px;
-    left: 20px;
-    padding: 20px 50px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background: rgba(255, 255, 255, 0.2);
-    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.05);
-    border-radius: 20px;
-    backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.25);
-    border-top: 1px solid rgba(255, 255, 255, 0.5);
-    border-left: 1px solid rgba(255, 255, 255, 0.25);
+  position: absolute;
+  top: -40px;
+  right: 20px;
+  left: 20px;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.2);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-left: 1px solid rgba(255, 255, 255, 0.25);
 }
 
 .logo span {
-    color: var(--dark-blue);
-    font-weight: 700;
-    font-size: 1.5em;
-    padding: 3px;
-    display: table-cell;
-    text-shadow: 0 15px 25px rgba(255, 255, 255, 0.8);
+  color: var(--dark-blue);
+  font-weight: 700;
+  font-size: 1.5em;
+  padding: 3px;
+  display: table-cell;
+  text-shadow: 0 15px 25px rgba(255, 255, 255, 0.8);
 }
 
 .logo:hover span {
-    animation: jump 0.5s infinite;
-    cursor: pointer;
+  animation: jump 0.5s infinite;
+  cursor: pointer;
 }
 
 @keyframes jump {
-    0% {
-        transform: translateY(0px);
-    }
-    50% {
-        transform: translateY(-20px);
-    }
-    100% {
-        transform: translateY(0px);
-    }
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
 }
 
 .logo span:nth-child(1) {
-    animation-delay: 0.1s;
+  animation-delay: 0.1s;
 }
 
 .logo span:nth-child(2) {
-    animation-delay: 0.2s;
+  animation-delay: 0.2s;
 }
 
 .logo span:nth-child(3) {
-    animation-delay: 0.3s;
+  animation-delay: 0.3s;
 }
 
 .logo span:nth-child(4) {
-    animation-delay: 0.4s;
+  animation-delay: 0.4s;
 }
 
 .logo span:nth-child(5) {
-    animation-delay: 0.5s;
+  animation-delay: 0.5s;
 }
 
 .logo span:nth-child(6) {
-    animation-delay: 0.6s;
+  animation-delay: 0.6s;
 }
 
 .logo span:nth-child(7) {
-    animation-delay: 0.7s;
+  animation-delay: 0.7s;
 }
 
 header ul {
-    display: flex;
+  display: flex;
 }
 
 header ul li {
-    margin: 0 10px;
+  margin: 0 10px;
 }
 
 .link {
-    font-weight: 600;
-    background: var(--light-blue);
-    color: #fff;
-    padding: 8px 15px;
-    border-radius: 25px;
-    font-size: 1.2em;
-    border: 2px solid #fff;
+  font-weight: 600;
+  background: var(--light-blue);
+  color: #fff;
+  padding: 8px 15px;
+  border-radius: 25px;
+  font-size: 1.2em;
+  border: 2px solid #fff;
 }
 
 .link:hover,
 .link .active {
-    background: #fff;
-    color: var(--light-blue);
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  background: #fff;
+  color: var(--light-blue);
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
 }
 
 .about {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: auto;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Montserrat&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&family=Montserrat&display=swap");
 
 .logo span {
-    font-family: 'Dancing Script', cursive;
-    font-size: 55px;
+  font-family: "Dancing Script", cursive;
+  font-size: 55px;
 }
 
 .about-me {
-    padding: 2%;
-    display: flex;
-    flex-basis: 100%;
-    align-items: center;
-    flex-direction: row;
-    width: 90vw;
-    height: auto;
-    margin: 0 auto;
+  padding: 2%;
+  display: flex;
+  flex-basis: 100%;
+  align-items: center;
+  flex-direction: row;
+  width: 90vw;
+  height: auto;
+  margin: 0 auto;
+}
+
+/* start: media queries */
+@media (max-width: 1280px) {
+  .home {
+    display: block;
+  }
+
+  .about-me {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .container {
+    width: calc(100% - 90px);
+    min-height: calc(100vh - 260px);
+  }
+
+  .logo span {
+    font-size: 1.7em;
+  }
+}
+/* end: 1280px */
+
+@media (min-width: 993px) and (max-width: 1024px) {
+}
+
+/* end: 1024px */
+
+/* start: 992px */
+@media (min-width: 769px) and (max-width: 992px) {
+}
+
+/* end 992px */
+
+/*start 768px */
+@media (max-width: 768px) {
+}
+
+/* end: 768px */
+
+/* start: 500px */
+@media (max-width: 500px) {
 }
