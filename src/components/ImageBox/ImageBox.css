@@ -1,13 +1,21 @@
 .image-box img {
-    max-width: 500px;
-    animation: animate 5s linear infinite;
+  max-width: 500px;
+  animation: animate 5s linear infinite;
 }
 
 @keyframes animate {
-    0%, 100% {
-        transform: translateY(50px);
-    }
-    50% {
-        transform: translateY(100px);
-    }
+  0%,
+  100% {
+    transform: translateY(50px);
+  }
+  50% {
+    transform: translateY(100px);
+  }
+}
+
+@media (min-width: 993px) and (max-width: 1024px) {
+    .image-box img {
+        max-width: 300px;
+        animation: animate 5s linear infinite;
+      }
 }

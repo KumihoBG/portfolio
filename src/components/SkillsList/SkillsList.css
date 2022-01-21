@@ -1,63 +1,72 @@
 .skills-list-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    width: 70%;
-    padding: 3% 2%;
-    border: 1px solid rgba(255, 255, 255, 0.5);
-    border-right: 1px solid rgba(255, 255, 255, 0.2);
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-    border-radius: 10px;
-    background: rgba(255, 255, 255, 0.1);
-    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
-    text-align: start;
-    margin: 3% 0;
-    min-width: 350px;
-    min-height: 400px;
-    z-index: 10;
-    backdrop-filter: blur(25px);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 70%;
+  padding: 3% 2%;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+  text-align: start;
+  margin: 3% 0;
+  min-width: 350px;
+  min-height: 400px;
+  z-index: 10;
+  backdrop-filter: blur(25px);
 }
 
 .skills-list-container h2 {
-    color: var(--dark-blue);
-    margin-bottom: 10px;
-    text-transform: uppercase;
-    border-bottom: 1px solid var(--dark-blue);
-    padding-bottom: 3px;
-    margin-bottom: 20px;
+  color: var(--dark-blue);
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  border-bottom: 1px solid var(--dark-blue);
+  padding-bottom: 3px;
+  margin-bottom: 20px;
 }
 
 .skills-list-container h4 {
-    color: var(--dark-blue);
-    font-size: 20px;
+  color: var(--dark-blue);
+  font-size: 20px;
 }
 
 .skills-list-container p {
-    color: #333;
-    text-align: justify;
+  color: #333;
+  text-align: justify;
 }
 
 .title {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    flex-direction: row;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
 }
 
 .svg-img {
-    color: var(--dark-blue);
-    width: 9%;
-    margin: 0;
-    padding: 0;
-    padding-right: 10px;
+  color: var(--dark-blue);
+  width: 9%;
+  margin: 0;
+  padding: 0;
+  padding-right: 10px;
 }
 
 /* start: media queries */
 @media (max-width: 1280px) {
-    .skills-list-container {
-        width: 80%;
-        padding: 5%;
-    }
+  .skills-list-container {
+    width: 80%;
+    padding: 5%;
+  }
 }
 /* end: 1280px */
+
+@media (min-width: 993px) and (max-width: 1024px) {
+  .skills-list-container {
+    width: 90%;
+    padding: 5%;
+  }
+}
+
+/* end: 1024px */

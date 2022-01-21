@@ -1,28 +1,40 @@
 .case-study-main {
-    width: 100%;
-    background: linear-gradient(to bottom, #000, #1c1320, #3c2846);
-    overflow: hidden;
+  width: 100%;
+  background: linear-gradient(to bottom, #000, #1c1320, #3c2846);
+  overflow: hidden;
 }
 
 .case-study-container {
-    width: 100%;
-    min-height: 100vh;
-    margin: 0 auto;
-    padding: 3% 5%;
-    display: grid;
-    grid-template-areas: 'flashcard study';
-    grid-gap: 5rem;
+  width: 100%;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 3% 5%;
+  display: grid;
+  grid-template-areas: "flashcard study";
+  grid-gap: 5rem;
 }
 
 .case-study-main ion-icon {
-    color: #00ccff;
+  color: #00ccff;
 }
 
 /* start: media queries */
 @media (max-width: 1280px) {
-    .case-study-container {
-        padding: 5%;
-        grid-gap: 6rem;
-    }
+  .case-study-container {
+    padding: 5%;
+    grid-gap: 6rem;
   }
-  /* end: 1280px */
+}
+/* end: 1280px */
+
+@media (min-width: 993px) and (max-width: 1024px) {
+  .case-study-container {
+    padding: 5%;
+    display: grid;
+    grid-template-areas:
+      "study"
+      "flashcard";
+    grid-gap: 2rem;
+  }
+}
+/* end: 1024px */

@@ -146,7 +146,17 @@
 
   .progress {
     top: 75%;
-  }  
+  }
 }
-
 /* end: 1280px */
+
+@media (min-width: 993px) and (max-width: 1024px) {
+   .math-images {
+    display: none;
+  }
+
+  .loading {
+    display: none;
+  }
+}
+/* end: 1024px */

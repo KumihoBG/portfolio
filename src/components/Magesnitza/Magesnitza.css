@@ -56,5 +56,31 @@
         width: 120%;
     }
 }
-
 /* end: 1280px */
+
+@media (min-width: 993px) and (max-width: 1024px) {
+    .magesnitza-container {
+        padding: 5%;
+        display: grid;
+        grid-template-areas:
+          "study"
+          "images";
+        grid-gap: 2rem;
+    }
+
+    .study-images {
+        width: 80%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .images h3 {
+        text-align: center;
+        padding: 2% 0;
+        margin: 0 auto;
+        margin-top: 5%;
+        width: 80%;
+    }
+}
+
+/* end: 1024px */

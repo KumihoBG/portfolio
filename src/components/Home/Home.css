@@ -207,6 +207,19 @@ header ul li {
 /* end: 1280px */
 
 @media (min-width: 993px) and (max-width: 1024px) {
+  .container {
+    width: calc(100% - 60px);
+    min-height: calc(100vh - 250px);
+  }
+
+  .call-to-action {
+    font-size: 22px;
+  }
+
+  .call-to-action-h3 {
+    padding: 15px;
+    font-size: 18px;
+  }
 }
 
 /* end: 1024px */

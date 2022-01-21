@@ -176,9 +176,49 @@
 
 /* start: 1024px */
 @media (max-width: 1024px) {
+  .demo-text {
+    color: #ccc;
+    text-align: center;
+    padding: 20px 0;
+    line-height: 1.2;
+  }
+
+  .demo-title {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .demo-container {
+    width: 100%;
+    height: auto;
+    padding: 0;
+  }
+
   .demo-card {
-    width: 300px;
-    height: 400px;
+    margin: 5% auto;
+    width: 500px;
+    height: 600px;
+  }
+
+  .question {
+    font-size: 18px;
+  }
+  
+  .answer {
+    height: 30%;
+    width: 80%;
+    padding: 1%;
+    text-align: justify;
+    letter-spacing: 0.5px;
+    font-size: 18px;
+  }
+  
+  .cover h2 {
+    font-size: 18px;
+  }
+
+  .details .answer {
+    font-size: 14px;
   }
 }
 /* end: 1024px */
@@ -199,11 +239,11 @@
   }
 
   .cover h2 {
-    font-size: 20px;
+    font-size: 16px;
   }
 
   .details .answer {
-    font-size: 15px;
+    font-size: 12px;
   }
 }
 /* end: 768px */

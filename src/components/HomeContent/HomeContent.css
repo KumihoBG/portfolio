@@ -52,3 +52,13 @@
   }
 }
 /* end: 1280px */
+
+@media (min-width: 993px) and (max-width: 1024px) {
+  .content {
+    transform: translateX(-80px);
+    max-width: 90%;
+    padding-left: 60px;
+  }
+}
+
+/* end: 1024px */

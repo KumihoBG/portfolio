@@ -1,69 +1,82 @@
 .case-study {
-    grid-area: study;
-    width: 80%;
-    margin: 0 auto;
-    padding: 0;
+  grid-area: study;
+  width: 80%;
+  margin: 0 auto;
+  padding: 0;
 }
 
 .case-study-title {
-    color: #d400d4;
-    padding: 20px 20px 20px 0;
-    font-size: 30px;
-    font-weight: 500;
+  color: #d400d4;
+  padding: 20px 20px 20px 0;
+  font-size: 30px;
+  font-weight: 500;
 }
 
 .subtitle {
-    width: 80%;
-    font-weight: 300;
-    font-size: 19px;
-    text-align: justify;
-    line-height: 1.5;
-    color: #ccc;
+  width: 80%;
+  font-weight: 300;
+  font-size: 19px;
+  text-align: justify;
+  line-height: 1.5;
+  color: #ccc;
 }
 
 .right-content {
-    width: 80%;
-    font-weight: 200;
-    text-align: center;
+  width: 80%;
+  font-weight: 200;
+  text-align: center;
 }
 
 .right-content h3 {
-    margin: 20px 0;
-    font-size: 20px;
-    color: #00ccff;
-    padding: 10px 10px 10px 0;
-    letter-spacing: 1px;
+  margin: 20px 0;
+  font-size: 20px;
+  color: #00ccff;
+  padding: 10px 10px 10px 0;
+  letter-spacing: 1px;
 }
 
 .right-content p {
-    font-size: 18px;
-    color: #ccc;
-    padding: 20px;
-    border: 0.5px solid #ccc;
-    text-align: justify;
-    white-space: pre-line;
+  font-size: 18px;
+  color: #ccc;
+  padding: 20px;
+  border: 0.5px solid #ccc;
+  text-align: justify;
+  white-space: pre-line;
 }
 
 .case-study-title {
-    text-align: justify;
-    white-space: pre-line;
+  text-align: justify;
+  white-space: pre-line;
 }
 
 /* start: media queries */
 @media (max-width: 1280px) {
-    .case-study {
-        width: 90%;
-        padding-left: 35px;
-    }
-    
-    .right-content {
-        width: 100%;
-    }
-
-    .subtitle {
-        width: 100%;
-    }
-    
+  .case-study {
+    width: 90%;
+    padding-left: 35px;
   }
-  /* end: 1280px */
-  
+
+  .right-content {
+    width: 100%;
+  }
+
+  .subtitle {
+    width: 100%;
+  }
+}
+/* end: 1280px */
+
+@media (min-width: 993px) and (max-width: 1024px) {
+  .case-study {
+    width: 90%;
+  }
+
+  .right-content p {
+    font-size: 14px;
+  }
+
+  .subtitle {
+    font-size: 16px;
+  }
+}
+/* end: 1024px */

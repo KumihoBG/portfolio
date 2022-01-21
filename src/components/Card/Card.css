@@ -114,6 +114,28 @@
 }
 /* end: 1280px */
 
+@media (min-width: 993px) and (max-width: 1024px) {
+  .card-container {
+    width: 70%;
+    padding: 0;
+    margin-bottom: 30px;
+  }
+
+  .card-content {
+    padding: 0;
+  }
+
+  .card-content h2 {
+    font-size: 22px;
+  }
+
+  .home-content-btn {
+    padding: 10px 12px;
+  }
+}
+
+/* end: 1024px */
+
 @media (max-width: 991px) {
   .card-container .card {
     width: auto;

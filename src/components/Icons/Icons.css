@@ -1,56 +1,69 @@
 .icons-container {
-    position: absolute;
-    bottom: -25px;
-    left: 20px;
-    width: 50%;
-    height: 10%;
-    display: flex;
+  position: absolute;
+  bottom: -25px;
+  left: 20px;
+  width: 50%;
+  height: 10%;
+  display: flex;
 }
 
 .icons {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .icons li {
-    margin-right: 10px;
+  margin-right: 10px;
 }
 
 .icons li a {
-    width: 60px;
-    height: 60px;
-    background: linear-gradient(180deg, rgb(191, 138, 218), #fff);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    margin: 5px 0;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
-    color: #000;
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(180deg, rgb(191, 138, 218), #fff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  margin: 5px 0;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  color: #000;
 }
 
 .icons li a img {
-    height: 50px;
-    width: 50px;
+  height: 50px;
+  width: 50px;
 }
 
 .icons li a img {
-    transform: scale(0.6);
-    transition: 0.5s;
+  transform: scale(0.6);
+  transition: 0.5s;
 }
 
 .icons li a:hover img {
-    transform: scale(0.7) rotate(360deg);
+  transform: scale(0.7) rotate(360deg);
 }
 
 /* start: media queries */
 @media (max-width: 1280px) {
-    .icons li a {
-        width: 50px;
-        height: 50px;
-    }
+  .icons li a {
+    width: 50px;
+    height: 50px;
+  }
+}
+/* end: 1280px */
+
+@media (min-width: 993px) and (max-width: 1024px) {
+  .icons li a {
+    width: 45px;
+    height: 45px;
+  }
+
+  .icons li a img {
+    width: 40px;
+    height: 40px;
+  }
 }
 
-/* end: 1280px */
+/* end: 1024px */

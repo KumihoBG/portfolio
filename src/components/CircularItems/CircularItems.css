@@ -1,125 +1,145 @@
 :root {
-    --light-blue: #78c8ed;
-    --dark-blue: #1783b5;
+  --light-blue: #78c8ed;
+  --dark-blue: #1783b5;
 }
 
 .menu-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    flex-basis: 60%;
-    align-content: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-basis: 60%;
+  align-content: center;
 }
 
 .menu {
-    position: relative;
-    width: 800px;
-    height: 800px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 5%;
+  position: relative;
+  width: 800px;
+  height: 800px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
 }
 
 .menu li {
-    position: absolute;
-    left: -113%;
-    transform-origin: 400px;
-    transition: 0.5s;
-    transition-delay: calc(0.1s * var(--i));
-    transform: rotate(0deg) translateX(100px);
+  position: absolute;
+  left: -113%;
+  transform-origin: 400px;
+  transition: 0.5s;
+  transition-delay: calc(0.1s * var(--i));
+  transform: rotate(0deg) translateX(100px);
 }
 
 .action {
-    position: absolute;
-    bottom: -45px;
-    color: #fff;
-    background: var(--dark-blue);
-    border: 1px solid #78c8ed;
-    border-radius: 15px;
-    padding: 5px 15px;
-    text-align: center;
-    width: 100%;
+  position: absolute;
+  bottom: -45px;
+  color: #fff;
+  background: var(--dark-blue);
+  border: 1px solid #78c8ed;
+  border-radius: 15px;
+  padding: 5px 15px;
+  text-align: center;
+  width: 100%;
 }
 
 .menu.active li {
-    transform: rotate(calc(360deg / 7 * var(--i)));
+  transform: rotate(calc(360deg / 7 * var(--i)));
 }
 
 .menu li ion-icon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 60px;
-    height: 60px;
-    background: #fff;
-    border-radius: 50%;
-    padding: 20%;
-    transform: rotate(calc(360deg / -7 * var(--i)));
-    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.15);
-    color: var(--dark-blue);
-    transition: 0.5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+  background: #fff;
+  border-radius: 50%;
+  padding: 20%;
+  transform: rotate(calc(360deg / -7 * var(--i)));
+  box-shadow: 0 3px 4px rgba(0, 0, 0, 0.15);
+  color: var(--dark-blue);
+  transition: 0.5s;
 }
 
 .menu li ion-icon:hover {
-    color: var(--light-blue);
-    position: relative;
-    z-index: 1;
+  color: var(--light-blue);
+  position: relative;
+  z-index: 1;
 }
 
 .toggle {
-    position: absolute;
-    width: 250px;
-    height: 250px;
-    background: #fff url('../../images/me.png') no-repeat center center/cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    cursor: pointer;
-    box-shadow: 0 0 4px rgba(0, 0, 0, 0.15);
-    transition: transform 1.25s;
-    border: 4px solid var(--dark-blue);
+  position: absolute;
+  width: 250px;
+  height: 250px;
+  background: #fff url("../../images/me.png") no-repeat center center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.15);
+  transition: transform 1.25s;
+  border: 4px solid var(--dark-blue);
 }
 
 .box {
-    display: none;
-    width: 100%;
-    height: 100%;
-    background: #fff;
-    padding: 10px;
-    border-radius: 25px;
-    position: relative;
+  display: none;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  padding: 10px;
+  border-radius: 25px;
+  position: relative;
 }
 
-ion-icon:hover + .box,.box:hover{
-    display: inline-block;
-    position: absolute;
-    top: -120%;
-    z-index: 99999;
-    width: 500px;
-    height: 400px;
-    transition: 0.5s;
-    transform: rotate(calc(360deg / -7 * var(--i)));
+ion-icon:hover + .box,
+.box:hover {
+  display: inline-block;
+  position: absolute;
+  top: -120%;
+  z-index: 99999;
+  width: 500px;
+  height: 400px;
+  transition: 0.5s;
+  transform: rotate(calc(360deg / -7 * var(--i)));
 }
 
 .box p {
-    color: var(--dark-blue);
-    font-size: 22px;
-    font-weight: 500;
-    margin-bottom: 10px;
+  color: var(--dark-blue);
+  font-size: 22px;
+  font-weight: 500;
+  margin-bottom: 10px;
 }
 
 /* start: media queries */
 @media (max-width: 1280px) {
-    .menu {
-        margin-top: 0;
-    }
-    .menu li {
-        transform-origin: 350px;
-        left: -95%;
-    }
+  .menu {
+    margin-top: 0;
+  }
+  .menu li {
+    transform-origin: 350px;
+    left: -95%;
+  }
+}
+/* end: 1280px */
+
+@media (min-width: 993px) and (max-width: 1024px) {
+  .menu {
+    width: 600px;
+    height: 600px;
+  }
+
+  .toggle {
+    width: 190px;
+    height: 190px;
+    border: 3px solid var(--dark-blue);
+  }
+
+  .menu li {
+    transform-origin: 300px;
+    left: -115%;
+  }
 }
 
-/* end: 1280px */
+/* end: 1024px */

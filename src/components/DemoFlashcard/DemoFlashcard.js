@@ -11,11 +11,11 @@ function Flashcard() {
         <h2 className="question">Answer:</h2>
         <div className="answer">Programming language with first-class functions. Main characteristics:
             <ul>
-                <li>prototype-based</li>
-                <li>multi-paradigm</li>
-                <li>single-threaded</li>
-                <li>dynamic language</li>
-                <li>supporting object-oriented, imperative, and declarative styles</li>
+                <li>- prototype-based</li>
+                <li>- multi-paradigm</li>
+                <li>- single-threaded</li>
+                <li>- dynamic language</li>
+                <li>- supporting object-oriented, imperative, and declarative styles</li>
             </ul>
         </div>
         <Link
