@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import '../JsFlashcards/JsFlashcards.css';
 import CaseStudy from '../CaseStudy/CaseStudy.js';
@@ -6,6 +6,9 @@ import DemoFlashcard from '../DemoFlashcard/DemoFlashcard.js';
 
 function JsFlashcards() {
     const bullet = '\u2022';
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
 
     return (
         <div className='case-study-main'>

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import '../Magesnitza/Magesnitza.css';
 import CaseStudy from '../CaseStudy/CaseStudy.js';
@@ -9,6 +9,9 @@ import magesnitzaSS3 from '../../images/magesnitza-ss3.png';
 
 function Magesnitza() {
     const bullet = '\u2022';
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
 
     return (
         <div className='case-study-magesnitza'>
