@@ -160,3 +160,16 @@
   }
 }
 /* end: 1024px */
+
+
+/* start: 992px */
+@media (min-width: 769px) and (max-width: 992px) {
+  .math-images {
+    display: none;
+  }
+
+  .loading {
+    display: none;
+  }
+}
+/* end 992px */

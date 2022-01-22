@@ -60,5 +60,13 @@
     padding-left: 60px;
   }
 }
-
 /* end: 1024px */
+
+/* start: 992px */
+@media (min-width: 769px) and (max-width: 992px) {
+  .content {
+    transform: translateX(-90px);
+    max-width: 80%;
+    padding-left: 55px;
+  }
+}

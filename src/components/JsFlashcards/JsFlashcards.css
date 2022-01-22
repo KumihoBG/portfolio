@@ -32,9 +32,21 @@
     padding: 5%;
     display: grid;
     grid-template-areas:
-      "study"
-      "flashcard";
+      "flashcard"
+      "study";
     grid-gap: 2rem;
   }
 }
 /* end: 1024px */
+
+/* start: 992px */
+@media (min-width: 769px) and (max-width: 992px) {
+  .case-study-container {
+    padding: 2% 10%;
+    display: grid;
+    grid-template-areas:
+      "flashcard"
+      "study";
+    grid-gap: 2rem;
+  }
+}

@@ -11,6 +11,7 @@ function JsFlashcards() {
         <div className='case-study-main'>
            <Link className='back-link' to='/'><ion-icon name="arrow-undo-outline"></ion-icon> Back to Home</Link>
             <div className='case-study-container'>
+                <DemoFlashcard />
                 <CaseStudy 
                 title={'Js Flashcards Trainer'} 
                 subtitle={'Web application representing a training system based on creating and managing flashcards containing terminology and definitions in the field of JavaScript.'} 
@@ -21,7 +22,6 @@ function JsFlashcards() {
                 challenge={'Create a self-learning system to help make learning JavaScript easier, especially for people with memory problems.\nThe system aims to improve knowledge through the use of visual and auditory memory (it has been proven that a person remembers better if he hears his own voice to say the necessary words).'} 
                 solution={`Part 1\n\n${bullet} Create and set up an application in Back4app\n${bullet} Deploy the application in Heroku\n${bullet} Login / Register page, logout functionality\n${bullet} Single Flashcard component functionality\n\nPart 2\n\n${bullet} Creating a landing page\n${bullet} Creating a home page\n${bullet} Flashcard Details\n${bullet} Flashcards library\n${bullet} My Cards page\n${bullet} Practice page\n${bullet} Create Page\n${bullet} Edit Page\n${bullet} Delete functionality\n${bullet} Profile page\n${bullet} Context API\n${bullet} Implement pagination for all collections on the page\nTechnologies\n${bullet} HTML, CSS, JavaScript, React.JS\nDependencies: Parse, React notifications, React Scripts, React Scroll, React Spinners\nHeroku, Back4app as BAAS`} 
                 result={'Working on this project made me grow significantly - I learned how to structure my goals, how to follow a plan, build logic and on this basis to build the architecture of the project itself.\n\nI put myself in the place of UX designers, trying to find the most optimal design at this stage for the benefit of users. I took on the role of content creator in building my landing page. I looked for appropriate tutorials to help me in the process of creating CSS animations which also accumulated a lot of experience for myself. In general, I learned a lot about React.js in the process and I am eager to achieve even more in the future.'}/>
-                <DemoFlashcard />
             </div>
         </div>
     )

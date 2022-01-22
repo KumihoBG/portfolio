@@ -13,9 +13,18 @@
   }
 }
 
+/* start: 1024px */
 @media (min-width: 993px) and (max-width: 1024px) {
-    .image-box img {
-        max-width: 300px;
-        animation: animate 5s linear infinite;
-      }
+  .image-box img {
+    max-width: 300px;
+    animation: animate 5s linear infinite;
+  }
+}
+
+/* start: 992px */
+@media (min-width: 769px) and (max-width: 992px) {
+  .image-box img {
+    max-width: 250px;
+    animation: animate 5s linear infinite;
+  }
 }

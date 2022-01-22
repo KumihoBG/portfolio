@@ -80,3 +80,18 @@
   }
 }
 /* end: 1024px */
+
+/* start: 992px */
+@media (min-width: 769px) and (max-width: 992px) {
+  .case-study {
+    width: 90%;
+  }
+
+  .right-content p {
+    font-size: 14px;
+  }
+
+  .subtitle {
+    font-size: 15px;
+  }
+}

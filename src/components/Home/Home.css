@@ -220,12 +220,28 @@ header ul li {
     padding: 15px;
     font-size: 18px;
   }
+
+  .about {
+    margin-left: -5%;
+  }
 }
 
 /* end: 1024px */
 
 /* start: 992px */
 @media (min-width: 769px) and (max-width: 992px) {
+  .container {
+    width: calc(100% - 40px);
+    min-height: calc(100vh - 250px);
+  }
+
+  .logo span {
+    font-size: 1.5em;
+  }
+
+  .about {
+    margin-left: -5%;
+  }
 }
 
 /* end 992px */

@@ -223,6 +223,54 @@
 }
 /* end: 1024px */
 
+/* start: 992px */
+@media (min-width: 769px) and (max-width: 992px) {
+  .demo-text {
+    color: #ccc;
+    text-align: center;
+    padding: 20px 0;
+    line-height: 1.2;
+  }
+
+  .demo-title {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .demo-container {
+    width: 100%;
+    height: auto;
+    padding: 0;
+  }
+
+  .demo-card {
+    margin: 5% auto;
+    width: 350px;
+    height: 450px;
+  }
+
+  .question {
+    font-size: 18px;
+  }
+  
+  .answer {
+    height: 30%;
+    width: 80%;
+    padding: 1%;
+    text-align: justify;
+    letter-spacing: 0.5px;
+    font-size: 18px;
+  }
+  
+  .cover h2 {
+    font-size: 18px;
+  }
+
+  .details .answer {
+    font-size: 14px;
+  }
+}
+
 /* Start: 993px*/
 @media (min-width: 993px) and (max-width: 1024px) {
   .demo-card {
