@@ -77,9 +77,14 @@
     .images h3 {
         text-align: center;
         padding: 2% 0;
+        font-weight: 400;
         margin: 0 auto;
         margin-top: 5%;
         width: 80%;
+    }
+
+    .case-study-title {
+        text-align: center;
     }
 }
 /* end: 1024px */
