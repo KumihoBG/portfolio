@@ -89,3 +89,15 @@
     font-size: 0.9em;
   }
 }
+
+/* start: 500px */
+@media (max-width: 500px) {
+  .content {
+    transform: translateX(-70px);
+    width: 100%;
+    height: auto;
+    padding-left: 45px;
+    margin-bottom: 35px;
+  }
+
+}

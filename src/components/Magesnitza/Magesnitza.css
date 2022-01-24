@@ -149,5 +149,32 @@
     .case-study-title {
         text-align: center;
     }
-
 }
+
+/* start: 500px */
+@media (max-width: 500px) {
+    .back-link {
+        color: #00ccff;
+        display: block;
+        padding: 30px 7%;
+        font-size: 16px;
+    }
+
+    .case-study-title {
+        font-size: 24px;
+    }
+
+    .study-images {
+        width: 95%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .images h3 {
+        font-weight: 300;
+        width: 90%;
+        font-size: 14px;
+    }
+}
+
+

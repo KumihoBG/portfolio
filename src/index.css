@@ -26,11 +26,6 @@ a {
   text-decoration: none;
 }
 
-/*start 768px */
-@media (max-width: 768px) {
-}
-
-/* end: 768px */
 
 /* start: 500px */
 @media (max-width: 500px) {

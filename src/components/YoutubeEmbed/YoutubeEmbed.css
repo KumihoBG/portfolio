@@ -12,3 +12,7 @@
     width: 100%;
     position: absolute;
   }
+
+  /* start: 500px */
+@media (max-width: 500px) {   
+}

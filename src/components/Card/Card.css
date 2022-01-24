@@ -208,12 +208,29 @@
   }
 }
 
+/* start: 500px */
+@media (max-width: 500px) {
+  .card-container {
+    width: 90%;
+    height: 250px;
+    padding: 0;
+  }
+
+  .card-container .card {
+    margin: 0;
+  }
+
+  .card-content h2 {
+    font-size: 18px;
+  }
+
+  .card-content p {
+    font-size: 12px;
+  }
+}
+
 @media (max-width: 420px) {
   .card-container .card .card-content {
     padding: 30px;
-  }
-
-  .card-container .card:hover img {
-    height: 300px;
   }
 }

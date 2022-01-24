@@ -111,3 +111,25 @@
     font-size: 15px;
   }
 }
+
+/* start: 500px */
+@media (max-width: 500px) {
+  .case-study {
+    width: 100%;
+    padding-bottom: 40px;
+    padding-left: 0;
+    margin: 0 auto;
+  }
+
+  .right-content p {
+    font-size: 13px;
+  }
+
+  .subtitle {
+    font-size: 14px;
+  }
+
+  .right-content h3 {
+    font-size: 14px;
+  }
+}
