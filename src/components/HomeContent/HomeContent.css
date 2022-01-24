@@ -70,3 +70,22 @@
     padding-left: 55px;
   }
 }
+
+/*start 768px */
+@media (max-width: 768px) {
+  .content {
+    transform: translateX(-80px);
+    max-width: 100%;
+    padding-left: 60px;
+    margin-bottom: 20px;
+  }
+
+  .content h2 {
+    font-size: 1.2em;
+    padding-bottom: 10px;
+  }
+
+  .content p {
+    font-size: 0.9em;
+  }
+}

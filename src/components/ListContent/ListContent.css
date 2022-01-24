@@ -34,5 +34,12 @@
     font-size: 14px;
   }
 }
-
 /* end: 1024px */
+
+/*start 768px */
+@media (max-width: 768px) {
+  .show-me {
+    padding: 10px;
+    font-size: 14px;
+  }
+}

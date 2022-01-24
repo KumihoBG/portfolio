@@ -50,3 +50,15 @@
     grid-gap: 2rem;
   }
 }
+
+/*start 768px */
+@media (max-width: 768px) {
+  .case-study-container {
+    padding: 2% 10%;
+    display: grid;
+    grid-template-areas:
+      "flashcard"
+      "study";
+    grid-gap: 2rem;
+  }
+}

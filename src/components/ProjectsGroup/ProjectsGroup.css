@@ -18,3 +18,10 @@
   }
 }
 /* end: 1280px */
+
+/*start 768px */
+@media (max-width: 768px) {
+  .projects-title {
+    font-size: 25px;
+  }
+}

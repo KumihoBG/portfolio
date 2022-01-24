@@ -26,3 +26,12 @@ footer {
   }
 }
 /* end: 1024px */
+
+/*start 768px */
+@media (max-width: 768px) {
+  .footer-small {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 300;
+  }
+}

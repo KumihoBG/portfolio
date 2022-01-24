@@ -17,7 +17,6 @@
 @media (min-width: 993px) and (max-width: 1024px) {
   .image-box img {
     max-width: 300px;
-    animation: animate 5s linear infinite;
   }
 }
 
@@ -25,6 +24,23 @@
 @media (min-width: 769px) and (max-width: 992px) {
   .image-box img {
     max-width: 250px;
-    animation: animate 5s linear infinite;
+  }
+}
+
+/*start 768px */
+@media (max-width: 768px) {
+  .image-box img {
+    max-width: 260px;
+    margin-top: 0;
+  }
+
+  @keyframes animate {
+    0%,
+    100% {
+      transform: translateY(-10px);
+    }
+    50% {
+      transform: translateY(40px);
+    }
   }
 }

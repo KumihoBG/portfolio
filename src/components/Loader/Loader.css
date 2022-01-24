@@ -173,3 +173,14 @@
   }
 }
 /* end 992px */
+
+/*start 768px */
+@media (max-width: 768px) {
+  .math-images {
+    display: none;
+  }
+
+  .loading {
+    display: none;
+  }
+}

@@ -225,7 +225,6 @@ header ul li {
     margin-left: -5%;
   }
 }
-
 /* end: 1024px */
 
 /* start: 992px */
@@ -248,8 +247,30 @@ header ul li {
 
 /*start 768px */
 @media (max-width: 768px) {
-}
+  header {
+    padding: 20px;
+  }
 
+  .home-section {
+    height: 100%;
+    padding: 80px 40px;
+  }
+
+  .container {
+    width: calc(100% - 10px);
+    min-height: 80vh;
+    flex-direction: column;
+  }
+
+  .call-to-action {
+    font-size: 22px;
+  }
+
+  .call-to-action-h3 {
+    padding: 15px;
+    font-size: 18px;
+  }
+}
 /* end: 768px */
 
 /* start: 500px */

@@ -196,6 +196,18 @@
   }
 }
 
+/*start 768px */
+@media (max-width: 768px) {
+  .card-container {
+    width: 80%;
+    height: 350px;
+  }
+
+  .card-content h2 {
+    font-size: 22px;
+  }
+}
+
 @media (max-width: 420px) {
   .card-container .card .card-content {
     padding: 30px;

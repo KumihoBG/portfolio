@@ -51,3 +51,20 @@
     grid-gap: 2rem;
   }
 }
+
+/*start 768px */
+@media (max-width: 768px) {
+  .case-study-math-trainer {
+    height: 100%;
+  }
+
+  .case-study-math-container {
+    min-height: 100vh;
+    padding: 2% 5%;
+    display: grid;
+    grid-template-areas:
+      "study"
+      "loader";
+    grid-gap: 2rem;
+  }
+}

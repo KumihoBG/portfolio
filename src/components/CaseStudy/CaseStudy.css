@@ -95,3 +95,19 @@
     font-size: 15px;
   }
 }
+
+/*start 768px */
+@media (max-width: 768px) {
+  .case-study {
+    width: 90%;
+    padding-bottom: 40px;
+  }
+
+  .right-content p {
+    font-size: 14px;
+  }
+
+  .subtitle {
+    font-size: 15px;
+  }
+}

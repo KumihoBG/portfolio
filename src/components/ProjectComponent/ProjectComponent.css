@@ -250,3 +250,49 @@
     padding: 0 5%;
   }
 }
+
+/*start 768px */
+@media (max-width: 768px) {
+  .project-image {
+    height: 300px;
+    padding-left: 15%;
+  }
+
+  .project-image img {
+    display: block;
+    width: 80%;
+    height: auto;
+  }
+
+  .view-project {
+    bottom: 62%;
+    left: 58.7%;
+    font-size: 18px;
+    width: 25%;
+  }
+
+  .project-info {
+    width: 65%;
+    height: auto;
+    margin-bottom: 40px;
+  }
+
+  .project-card {
+    width: 100%;
+    margin-bottom: 10%;
+  }
+
+  .project-card h1 {
+    font-size: 18px;
+  }
+  
+  .project-card p {
+    padding: 5%;
+    font-size: 14px;
+  }
+
+  .project-card h4 {
+    padding: 0 5%;
+  }
+
+}

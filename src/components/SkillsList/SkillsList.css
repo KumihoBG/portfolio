@@ -68,5 +68,12 @@
     padding: 5%;
   }
 }
-
 /* end: 1024px */
+
+/*start 768px */
+@media (max-width: 768px) {
+  .skills-list-container {
+    width: 100%;
+    padding: 3%;
+  }
+}
