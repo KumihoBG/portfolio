@@ -235,3 +235,11 @@
     padding: 30px;
   }
 }
+
+/* start: 360px */
+@media (max-width: 360px) {
+  .home-content-btn {
+    padding: 5px 12px;
+    margin-left: 25px;
+  }
+}

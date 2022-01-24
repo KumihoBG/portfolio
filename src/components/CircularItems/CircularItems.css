@@ -231,32 +231,23 @@ ion-icon:hover + .box,
 /* start: 360px */
 @media (max-width: 360px) {
   .menu-container {
+    height: auto;
     padding: 0;
-    margin: 10% 0;
-  }
-
-  .toggle {
-    width: 120px;
-    height: 120px;
-    border: 2px solid var(--dark-blue);
+    margin: 2% 0 10% 0;
   }
 
   .menu {
-    width: 340px;
-    height: 340px;
+    display: none;
+  }
+  
+  .mobile {
+    display: block;
+    width: 90vw;
+    min-height: 100vh;
   }
 
-  .menu li {
-    transform-origin: 160px;
-    left: -100px;
-  }
-
-  .menu li ion-icon {
-    width: 30px;
-    height: 30px;
-  }
-
-  .action {
-    padding: 5px 10px;
+  .box {
+    display: block;
+    margin-bottom: 30px;
   }
 }

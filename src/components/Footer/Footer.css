@@ -35,3 +35,11 @@ footer {
     font-weight: 300;
   }
 }
+
+
+/* start: 360px */
+@media (max-width: 360px) {
+  .footer-small {
+    margin-top: 5%;
+  }
+}

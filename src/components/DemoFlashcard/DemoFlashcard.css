@@ -296,10 +296,20 @@
 }
 /* end: 768px */
 
-/* Start: 375px */
-@media (max-width: 375px) {
+/* Start: 360px */
+@media (max-width: 360px) {
   .demo-card {
-    width: 150px;
-    height: 150px;
+    width: 250px;
+    height: 350px;
+  }
+
+  .details-button {
+    padding: 4px 15px;
+    font-weight: 300;
+    font-size: 12px;
+  }
+
+  .question {
+    margin-top: 10%;
   }
 }

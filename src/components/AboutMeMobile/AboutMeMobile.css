@@ -1,0 +1,11 @@
+.mobile {
+    display: none;
+}
+
+
+/* start: 360px */
+@media (max-width: 360px) {
+    .mobile {
+        display: block;
+    }
+}

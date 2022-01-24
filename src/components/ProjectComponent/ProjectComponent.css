@@ -349,3 +349,71 @@
     font-size: 14px
   }
 }
+
+/* start: 360px */
+@media (max-width: 360px) {
+  .project-image {
+    height: 200px;
+    margin-bottom: 5%;
+  }
+
+  .project-image img {
+    display: block;
+    width: 300px;
+    height: auto;
+  }
+
+  .view-project {
+    display: flex;
+    bottom: 90%;
+    left: 23.1%;
+    font-size: 12px;
+    align-items: center;
+    width: 20%;
+    height: 30px;
+    padding: 0 10px;
+  }
+
+  .project-info {
+    width: 40%;
+    height: auto;
+    margin-left: 20px;
+    margin-top: 0;
+    }
+
+  .project-card {
+    width: 100%;
+    margin-bottom: 3%;
+  }
+
+  .project-card h1 {
+    font-size: 15px;
+  }
+  
+  .project-card p {
+    padding: 5%;
+    font-size: 12px;
+  }
+
+  .project-card h4 {
+    padding: 0 5%;
+    font-size: 14px;
+  }
+
+  .project-card a {
+    padding: 5px 10px;
+    font-size: 14px
+  }
+
+  .view-project::before {
+    width: 25px;
+    height: 25px;
+    bottom: -25px;
+  }
+  
+  .view-project::after {
+    width: 25px;
+    height: 10px;
+    bottom: -10px;
+  }
+}

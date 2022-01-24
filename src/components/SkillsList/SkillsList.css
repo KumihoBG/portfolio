@@ -85,3 +85,14 @@
     padding: 5%;
   }
 }
+
+/* start: 360px */
+@media (max-width: 360px) {
+  .skills-list-container h2,
+  .box p,
+  .title h4,
+  .projects-title {
+    font-size: 18px;
+  }
+}
+
