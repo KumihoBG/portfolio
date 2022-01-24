@@ -218,6 +218,7 @@
 
   .card-container .card {
     margin: 0;
+    height: auto;
   }
 
   .card-content h2 {

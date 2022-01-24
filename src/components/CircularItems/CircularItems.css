@@ -64,8 +64,6 @@
 
 .menu li ion-icon:hover {
   color: var(--light-blue);
-  position: relative;
-  z-index: 1;
 }
 
 .toggle {
@@ -98,7 +96,7 @@ ion-icon:hover + .box,
   display: inline-block;
   position: absolute;
   top: -120%;
-  z-index: 99999;
+  z-index: 99998;
   width: 500px;
   height: 400px;
   transition: 0.5s;
@@ -224,13 +222,41 @@ ion-icon:hover + .box,
 
   ion-icon:hover + .box,
   .box:hover {
-    display: inline-block;
-    position: absolute;
     top: -120%;
-    z-index: 99999;
     width: 350px;
     height: 250px;
-    transition: 0.5s;
-    transform: rotate(calc(360deg / -7 * var(--i)));
+  }
+}
+
+/* start: 360px */
+@media (max-width: 360px) {
+  .menu-container {
+    padding: 0;
+    margin: 10% 0;
+  }
+
+  .toggle {
+    width: 120px;
+    height: 120px;
+    border: 2px solid var(--dark-blue);
+  }
+
+  .menu {
+    width: 340px;
+    height: 340px;
+  }
+
+  .menu li {
+    transform-origin: 160px;
+    left: -100px;
+  }
+
+  .menu li ion-icon {
+    width: 30px;
+    height: 30px;
+  }
+
+  .action {
+    padding: 5px 10px;
   }
 }
