@@ -248,7 +248,7 @@
   .card-container .card {
     height: auto;
   }
-  
+
   .card-container .card .card-content {
     padding: 20px;
   }
@@ -284,5 +284,14 @@
   .home-content-btn {
     padding: 5px 12px;
     margin-left: 25px;
+  }
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .home-content-btn {
+    padding: 5px 10px;
+    margin-left: 25px;
+    font-size: 12px;
   }
 }

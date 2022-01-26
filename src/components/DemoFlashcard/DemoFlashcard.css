@@ -335,3 +335,11 @@
     margin-top: 10%;
   }
 }
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .demo-card {
+    width: 220px;
+    height: 320px;
+  }
+}

@@ -125,3 +125,13 @@
     font-size: 18px;
   }
 }
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .skills-list-container h2,
+  .box p,
+  .title h4,
+  .projects-title {
+    font-size: 15px;
+  }
+}

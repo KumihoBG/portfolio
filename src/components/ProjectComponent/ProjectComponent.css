@@ -201,7 +201,7 @@
   .project-card h1 {
     font-size: 18px;
   }
-  
+
   .project-card p {
     padding: 5%;
     font-size: 14px;
@@ -210,7 +210,6 @@
   .project-card h4 {
     padding: 0 5%;
   }
-  
 }
 /* end: 1024px */
 
@@ -243,7 +242,7 @@
   .project-card h1 {
     font-size: 18px;
   }
-  
+
   .project-card p {
     padding: 5%;
     font-size: 14px;
@@ -288,7 +287,7 @@
   .project-card h1 {
     font-size: 18px;
   }
-  
+
   .project-card p {
     padding: 5%;
     font-size: 14px;
@@ -333,7 +332,7 @@
   .project-card h1 {
     font-size: 15px;
   }
-  
+
   .project-card p {
     padding: 5%;
     font-size: 12px;
@@ -346,7 +345,7 @@
 
   .project-card a {
     padding: 5px 10px;
-    font-size: 14px
+    font-size: 14px;
   }
 }
 
@@ -378,7 +377,7 @@
     width: 70%;
     height: auto;
     margin: 20px 7%;
-    }
+  }
 
   .project-card {
     width: 100%;
@@ -388,7 +387,7 @@
   .project-card h1 {
     font-size: 15px;
   }
-  
+
   .project-card p {
     padding: 5%;
     font-size: 12px;
@@ -401,7 +400,7 @@
 
   .project-card a {
     padding: 5px 8px;
-    font-size: 12px
+    font-size: 12px;
   }
 
   .view-project::before {
@@ -409,7 +408,7 @@
     height: 25px;
     bottom: -25px;
   }
-  
+
   .view-project::after {
     width: 25px;
     height: 10px;
@@ -445,7 +444,7 @@
     height: auto;
     margin-left: 12px;
     margin-top: 0;
-    }
+  }
 
   .project-card {
     width: 100%;
@@ -455,7 +454,7 @@
   .project-card h1 {
     font-size: 15px;
   }
-  
+
   .project-card p {
     padding: 5%;
     font-size: 12px;
@@ -468,7 +467,7 @@
 
   .project-card a {
     padding: 5px 8px;
-    font-size: 12px
+    font-size: 12px;
   }
 
   .view-project::before {
@@ -476,7 +475,7 @@
     height: 25px;
     bottom: -25px;
   }
-  
+
   .view-project::after {
     width: 25px;
     height: 10px;
@@ -498,11 +497,9 @@
   }
 
   .view-project {
-    display: flex;
     bottom: 90%;
     left: 23.1%;
     font-size: 12px;
-    align-items: center;
     width: 20%;
     height: 30px;
     padding: 0 10px;
@@ -513,7 +510,7 @@
     height: auto;
     margin-left: 20px;
     margin-top: 0;
-    }
+  }
 
   .project-card {
     width: 100%;
@@ -523,7 +520,7 @@
   .project-card h1 {
     font-size: 15px;
   }
-  
+
   .project-card p {
     padding: 5%;
     font-size: 12px;
@@ -536,7 +533,7 @@
 
   .project-card a {
     padding: 5px 10px;
-    font-size: 14px
+    font-size: 14px;
   }
 
   .view-project::before {
@@ -544,10 +541,38 @@
     height: 25px;
     bottom: -25px;
   }
-  
+
   .view-project::after {
     width: 25px;
     height: 10px;
     bottom: -10px;
   }
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .project {
+    padding: 0;
+    grid-template-rows: repeat(3, 0.03fr);
+    grid-gap: 0;
+    width: 100%;
+  }
+
+  .project-image img {
+    display: block;
+    width: 260px;
+    height: auto;
+  }
+
+  .view-project {
+    bottom: 80%;
+    left: 22.8%;
+    width: 15%;
+    height: 25px;
+  }
+
+  .project-info {
+    width: 35%;
+  }
+
 }

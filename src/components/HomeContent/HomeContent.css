@@ -151,3 +151,18 @@
     padding-left: 25px;
   }
 }
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  .content {
+    transform: translateX(-10px);
+    width: 315px;
+    padding: 15px;
+    margin: 30% 0 15% 0;
+  }
+
+  .content h2 {
+    font-size: 14px;
+    padding-left: 15px;
+  }
+}

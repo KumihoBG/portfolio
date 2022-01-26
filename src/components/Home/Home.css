@@ -463,3 +463,27 @@ header ul li {
     font-size: 14px;
   }
 }
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+  header {
+    width: 110%;
+    padding: 10px;
+    left: -10px;
+  }
+
+  header ul li {
+    margin: 5px;
+  }
+
+  .logo span {
+    font-size: 1.2em;
+    margin-bottom: 25px;
+  }
+
+  .link {
+    font-weight: 300;
+    padding: 8px 10px;
+    font-size: 0.7em;
+  }
+}
