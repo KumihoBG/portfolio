@@ -350,6 +350,140 @@
   }
 }
 
+/* iPhone 6, 7, 8 ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
+  .project-image {
+    height: 200px;
+    margin-bottom: 5%;
+  }
+
+  .project-image img {
+    display: block;
+    width: 70%;
+    height: auto;
+  }
+
+  .view-project {
+    display: flex;
+    bottom: 70%;
+    left: 55%;
+    font-size: 12px;
+    align-items: center;
+    width: 18.7%;
+    height: 30px;
+    padding: 0 10px;
+  }
+
+  .project-info {
+    width: 70%;
+    height: auto;
+    margin: 20px 7%;
+    }
+
+  .project-card {
+    width: 100%;
+    margin-bottom: 3%;
+  }
+
+  .project-card h1 {
+    font-size: 15px;
+  }
+  
+  .project-card p {
+    padding: 5%;
+    font-size: 12px;
+  }
+
+  .project-card h4 {
+    padding: 0 5%;
+    font-size: 14px;
+  }
+
+  .project-card a {
+    padding: 5px 8px;
+    font-size: 12px
+  }
+
+  .view-project::before {
+    width: 25px;
+    height: 25px;
+    bottom: -25px;
+  }
+  
+  .view-project::after {
+    width: 25px;
+    height: 10px;
+    bottom: -10px;
+  }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
+  .project-image {
+    height: 200px;
+    margin-bottom: 5%;
+  }
+
+  .project-image img {
+    display: block;
+    width: 290px;
+    height: auto;
+  }
+
+  .view-project {
+    display: flex;
+    bottom: 90%;
+    left: 23.1%;
+    font-size: 12px;
+    align-items: center;
+    width: 18.7%;
+    height: 30px;
+    padding: 0 10px;
+  }
+
+  .project-info {
+    width: 40%;
+    height: auto;
+    margin-left: 12px;
+    margin-top: 0;
+    }
+
+  .project-card {
+    width: 100%;
+    margin-bottom: 3%;
+  }
+
+  .project-card h1 {
+    font-size: 15px;
+  }
+  
+  .project-card p {
+    padding: 5%;
+    font-size: 12px;
+  }
+
+  .project-card h4 {
+    padding: 0 5%;
+    font-size: 14px;
+  }
+
+  .project-card a {
+    padding: 5px 8px;
+    font-size: 12px
+  }
+
+  .view-project::before {
+    width: 25px;
+    height: 25px;
+    bottom: -25px;
+  }
+  
+  .view-project::after {
+    width: 25px;
+    height: 10px;
+    bottom: -10px;
+  }
+}
+
 /* start: 360px */
 @media (max-width: 360px) {
   .project-image {

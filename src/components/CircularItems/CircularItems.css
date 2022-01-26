@@ -228,6 +228,71 @@ ion-icon:hover + .box,
   }
 }
 
+/* iPhone 6, 7, 8 ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
+  .menu-container {
+    padding: 3% 0 3% 3%;
+  }
+
+  .toggle {
+    width: 135px;
+    height: 135px;
+    border: 2px solid var(--dark-blue);
+  }
+
+  .menu {
+    width: 490px;
+    height: 490px;
+  }
+
+  .menu li {
+    transform-origin: 230px;
+    left: -130%;
+  }
+
+  .menu li ion-icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .action {
+    padding: 5px 10px;
+  }
+
+  ion-icon:hover + .box,
+  .box:hover {
+    top: -120%;
+    width: 350px;
+    height: 250px;
+  }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
+  .menu-container {
+    height: auto;
+    margin: 5% auto;
+    padding: 0 10px 0 0;
+    width: 375px;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+    width: 80vw;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .box {
+    display: block;
+    margin-bottom: 30px;
+  }
+}
+
 /* start: 360px */
 @media (max-width: 360px) {
   .menu-container {
@@ -239,7 +304,7 @@ ion-icon:hover + .box,
   .menu {
     display: none;
   }
-  
+
   .mobile {
     display: block;
     width: 90vw;

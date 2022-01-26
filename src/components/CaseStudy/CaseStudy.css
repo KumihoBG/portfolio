@@ -133,3 +133,45 @@
     font-size: 14px;
   }
 }
+
+/* iPhone 6, 7, 8 ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
+  .case-study {
+    width: 100%;
+    padding-top: 0;
+    padding-bottom: 30px;
+    padding-right: 20px;
+    padding-left: 0;
+    margin: 0 auto;
+  }
+
+  .case-study-title {
+    font-size: 22px;
+  }
+
+  .right-content h3 {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
+  .case-study {
+    width: 90%;
+    padding-bottom: 30px;
+    padding-right: 20px;
+    padding-left: 0;
+    margin: 0 auto;
+  }
+
+  .right-content p {
+    font-size: 12px;
+  }
+
+  .subtitle {
+    font-size: 14px;
+  }
+
+  .right-content h3 {
+    font-size: 14px;
+  }
+}

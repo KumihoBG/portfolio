@@ -1,180 +1,199 @@
 .case-study-magesnitza {
-    width: 100%;
-    background: linear-gradient(to bottom, #000, #032c36, #071833);
-    overflow: hidden;
-    margin: 0 auto;
-    padding-left: 0;
+  width: 100%;
+  background: linear-gradient(to bottom, #000, #032c36, #071833);
+  overflow: hidden;
+  margin: 0 auto;
+  padding-left: 0;
 }
 
 .magesnitza-container {
-    width: 100%;
-    min-height: 100vh;
-    margin: 0 auto;
-    padding: 3% 5%;
-    display: grid;
-    grid-template-areas: 'images study';
-    grid-gap: 5rem;
+  width: 100%;
+  min-height: 100vh;
+  margin: 0 auto;
+  padding: 3% 5%;
+  display: grid;
+  grid-template-areas: "images study";
+  grid-gap: 5rem;
 }
 
 .back-link {
-    color: #00ccff;
-    display: block;
-    padding: 30px 7%;
-    font-size: 20px;
+  color: #00ccff;
+  display: block;
+  padding: 30px 7%;
+  font-size: 20px;
 }
 
 .case-study-magesnitza ion-icon {
-    color: #00ccff;
+  color: #00ccff;
 }
 
 .study-images {
-    display: block;
-    border-radius: 25px;
-    width: 90%;
+  display: block;
+  border-radius: 25px;
+  width: 90%;
 }
 
 .images {
-    grid-area: images;
-    padding: 0;
-    margin: 0;
+  grid-area: images;
+  padding: 0;
+  margin: 0;
 }
 
 .images h3 {
-    padding: 3%;
-    color: #ccc;
-    margin-top: 15%;
-    width: 90%;
+  padding: 3%;
+  color: #ccc;
+  margin-top: 15%;
+  width: 90%;
 }
 
 .magesnitza-container h1 {
-    color: #4fbeda;
+  color: #4fbeda;
 }
 
 /* start: media queries */
 @media (max-width: 1280px) {
-    .study-images {
-        width: 120%;
-    }
+  .study-images {
+    width: 120%;
+  }
 }
 /* end: 1280px */
 
 @media (min-width: 993px) and (max-width: 1024px) {
-    .magesnitza-container {
-        padding: 5%;
-        display: grid;
-        grid-template-areas:
-          "study"
-          "images";
-        grid-gap: 2rem;
-    }
+  .magesnitza-container {
+    padding: 5%;
+    display: grid;
+    grid-template-areas:
+      "study"
+      "images";
+    grid-gap: 2rem;
+  }
 
-    .study-images {
-        width: 80%;
-        height: auto;
-        margin: 0 auto;
-    }
+  .study-images {
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+  }
 
-    .images h3 {
-        text-align: center;
-        padding: 2% 0;
-        font-weight: 400;
-        margin: 0 auto;
-        margin-top: 5%;
-        width: 80%;
-    }
+  .images h3 {
+    text-align: center;
+    padding: 2% 0;
+    font-weight: 400;
+    margin: 0 auto;
+    margin-top: 5%;
+    width: 80%;
+  }
 
-    .case-study-title {
-        text-align: center;
-    }
+  .case-study-title {
+    text-align: center;
+  }
 }
 /* end: 1024px */
 
 /* start: 992px */
 @media (min-width: 769px) and (max-width: 992px) {
-    .magesnitza-container {
-        padding: 5%;
-        display: grid;
-        grid-template-areas:
-          "study"
-          "images";
-        grid-gap: 2rem;
-    }
+  .magesnitza-container {
+    padding: 5%;
+    display: grid;
+    grid-template-areas:
+      "study"
+      "images";
+    grid-gap: 2rem;
+  }
 
-    .study-images {
-        width: 70%;
-        height: auto;
-        margin: 0 auto;
-    }
+  .study-images {
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+  }
 
-    .images h3 {
-        text-align: center;
-        font-weight: 400;
-        padding: 2% 0;
-        margin: 0 auto;
-        margin-top: 5%;
-        width: 70%;
-    }
+  .images h3 {
+    text-align: center;
+    font-weight: 400;
+    padding: 2% 0;
+    margin: 0 auto;
+    margin-top: 5%;
+    width: 70%;
+  }
 
-    .case-study-title {
-        text-align: center;
-    }
+  .case-study-title {
+    text-align: center;
+  }
 }
 
 /*start 768px */
 @media (max-width: 768px) {
-    .magesnitza-container {
-        padding: 5%;
-        display: grid;
-        grid-template-areas:
-          "study"
-          "images";
-        grid-gap: 2rem;
-    }
+  .magesnitza-container {
+    padding: 5%;
+    display: grid;
+    grid-template-areas:
+      "study"
+      "images";
+    grid-gap: 2rem;
+  }
 
-    .study-images {
-        width: 70%;
-        height: auto;
-        margin: 0 auto;
-    }
+  .study-images {
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+  }
 
-    .images h3 {
-        text-align: center;
-        font-weight: 400;
-        padding: 2% 0;
-        margin: 0 auto;
-        margin-top: 5%;
-        width: 70%;
-    }
+  .images h3 {
+    text-align: center;
+    font-weight: 400;
+    padding: 2% 0;
+    margin: 0 auto;
+    margin-top: 5%;
+    width: 70%;
+  }
 
-    .case-study-title {
-        text-align: center;
-    }
+  .case-study-title {
+    text-align: center;
+  }
 }
 
 /* start: 500px */
 @media (max-width: 500px) {
-    .back-link {
-        color: #00ccff;
-        display: block;
-        padding: 30px 7%;
-        font-size: 16px;
-    }
+  .back-link {
+    padding: 30px 7%;
+    font-size: 16px;
+  }
 
-    .case-study-title {
-        font-size: 24px;
-    }
+  .case-study-title {
+    font-size: 24px;
+  }
 
-    .study-images {
-        width: 95%;
-        height: auto;
-        margin: 0 auto;
-    }
+  .study-images {
+    width: 95%;
+    height: auto;
+    margin: 0 auto;
+  }
 
-    .images h3 {
-        font-weight: 300;
-        width: 90%;
-        font-size: 14px;
-    }
+  .images h3 {
+    font-weight: 300;
+    width: 90%;
+    font-size: 14px;
+  }
 }
 
+/* iPhone 6, 7, 8 ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
+  .magesnitza-container {
+    padding: 3% 5%;
+    grid-gap: 0.5rem;
+  }
 
+  .back-link {
+    padding: 30px 7%;
+    font-size: 14px;
+  }
+
+  .study-images {
+    width: 90%;
+  }
+
+  .images h3 {
+    font-weight: 300;
+    width: 80%;
+    font-size: 14px;
+  }
+}

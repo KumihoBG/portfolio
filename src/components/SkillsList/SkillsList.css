@@ -86,6 +86,36 @@
   }
 }
 
+/* iPhone 6, 7, 8 ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
+  .skills-list-container h2,
+  .box p,
+  .title h4,
+  .projects-title {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
+  .skills-list-container {
+    width: auto;
+    height: auto;
+    padding: 1%;
+    padding-left: 25px;
+    margin: 3% auto;
+    box-shadow: none;
+    background: rgba(255, 255, 255, 0.3);
+  }
+
+  .skills-list-container h2,
+  .box p,
+  .title h4,
+  .projects-title {
+    font-size: 18px;
+    padding-top: 10px;
+  }
+}
+
 /* start: 360px */
 @media (max-width: 360px) {
   .skills-list-container h2,
@@ -95,4 +125,3 @@
     font-size: 18px;
   }
 }
-

@@ -236,6 +236,49 @@
   }
 }
 
+/* iPhone 6, 7, 8 ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
+  .card-container {
+    width: 80%;
+    height: 300px;
+    padding: 0;
+    margin-left: 10%;
+  }
+
+  .card-container .card {
+    height: auto;
+  }
+  
+  .card-container .card .card-content {
+    padding: 20px;
+  }
+
+  .home-content-btn {
+    padding: 5px 15px;
+    margin-left: 50%;
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
+  .card-container {
+    width: 80%;
+    height: 250px;
+    padding: 0;
+    margin-left: 20px;
+  }
+
+  .card-container .card .card-content {
+    padding: 40px;
+  }
+
+  .home-content-btn {
+    padding: 5px 10px;
+    margin-left: 15px;
+    font-size: 12px;
+  }
+}
+
 /* start: 360px */
 @media (max-width: 360px) {
   .home-content-btn {

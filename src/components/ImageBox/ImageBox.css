@@ -45,6 +45,20 @@
   }
 }
 
+/* iPhone 6, 7, 8 ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
+  .image-box img {
+    max-width: 200px;
+    margin-top: 0;
+  }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
+  .image-box img {
+    max-width: 200px;
+    margin-top: 0;
+  }
+}
 
 /* start: 360px */
 @media (max-width: 360px) {
