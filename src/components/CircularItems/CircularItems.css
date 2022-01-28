@@ -111,10 +111,31 @@ ion-icon:hover + .box,
 }
 
 /* start: media queries */
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 1366px) {
+  .toggle {
+    width: 200px;
+    height: 200px;
+    border: 2px solid var(--dark-blue);
+  }
+
+  .menu {
+    width: 650px;
+    height: 650px;
+    margin-bottom: 25px;
+  }
+
+  .menu li {
+    transform-origin: 350px;
+    left: -125%;
+  }
+}
+
 @media (max-width: 1280px) {
   .menu {
     margin-top: 0;
   }
+
   .menu li {
     transform-origin: 350px;
     left: -95%;

@@ -54,6 +54,15 @@
 }
 
 /* start: media queries */
+@media only screen and (min-device-width : 1366px) {
+  .skills-list-container h2,
+  .box p,
+  .title h4,
+  .projects-title {
+    font-size: 24px;
+  }
+}
+
 @media (max-width: 1280px) {
   .skills-list-container {
     width: 80%;

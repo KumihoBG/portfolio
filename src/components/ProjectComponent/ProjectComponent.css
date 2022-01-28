@@ -128,6 +128,20 @@
 }
 
 /* start: media queries */
+@media only screen and (min-device-width : 1366px) { 
+  .project-image img {
+    width: 600px;
+    height: auto;
+  }
+
+  .view-project {
+    bottom: 40%;
+    left: 74%;
+    font-size: 21px;
+    padding-left: 20px;
+  }
+}
+
 @media (max-width: 1280px) {
   .project {
     grid-template-rows: repeat(3, 0.05fr);

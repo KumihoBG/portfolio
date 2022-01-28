@@ -76,6 +76,36 @@
 }
 
 /* start: media queries */
+@media only screen and (min-device-width : 1366px) {
+  .card-container {
+    width: 90vw;
+    padding: 20px;
+    padding-left: 0;
+  }
+
+  .card-container .card {
+    width: 100%;
+  }
+
+  .card-content p {
+    padding: 20px 0;
+  }
+
+  .card-container .card img {
+    position: absolute;
+    bottom: 0;
+    left: 75%;
+    transform: translateX(-60%);
+    height: 320px;
+    transition: 0.5s;
+  }
+
+  .card-container .card:hover img {
+    left: 80%;
+    height: 380px;
+  }
+}
+
 @media (max-width: 1280px) {
   .card-container {
     display: block;
