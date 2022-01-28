@@ -463,6 +463,8 @@ header ul li {
 /* start: 360px */
 @media (max-width: 360px) {
   header {
+    width: 90%;
+    height: auto;
     display: flex;
     flex-direction: column;
   }
@@ -495,6 +497,11 @@ header ul li {
   .call-to-action-h3 {
     padding: 15px;
     font-size: 14px;
+  }
+
+  .link {
+    padding: 8px 10px;
+    margin-right: 5px;
   }
 }
 
