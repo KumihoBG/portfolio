@@ -312,7 +312,6 @@
   }
 }
 
-/* start: 500px */
 @media (max-width: 500px) {
   .project-image {
     padding: 3%;
@@ -363,7 +362,62 @@
   }
 }
 
-/* iPhone 6, 7, 8 ----------- */
+@media (max-width: 414px) and (max-height: 896px) {
+  .project {
+    width: 100%;
+    grid-template-rows: repeat(3, 0.01fr);
+  }
+
+  .project-image {
+    padding: 2%;
+  }
+
+  .project-image img {
+    display: block;
+    width: 45%;
+    height: 200px;
+    padding-bottom: 0;
+  }
+
+  .view-project {
+    bottom: 60%;
+    left: 28.2%;
+    font-size: 14px;
+    width: 20%;
+  }
+
+  .project-info {
+    width: 45%;
+    height: auto;
+    margin-bottom: 20px;
+    margin-left: 3%;
+  }
+
+  .project-card {
+    width: 100%;
+    margin-bottom: 3%;
+  }
+
+  .project-card h1 {
+    font-size: 15px;
+  }
+
+  .project-card p {
+    padding: 5%;
+    font-size: 12px;
+  }
+
+  .project-card h4 {
+    padding: 0 5%;
+    font-size: 14px;
+  }
+
+  .project-card a {
+    padding: 5px 10px;
+    font-size: 14px;
+  }
+}
+
 @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
   .project-image {
     height: 200px;
@@ -497,7 +551,6 @@
   }
 }
 
-/* start: 360px */
 @media (max-width: 360px) {
   .project-image {
     height: 200px;
@@ -563,8 +616,7 @@
   }
 }
 
-/* Smartphones (portrait and landscape) ----------- */
-@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+@media only screen and (max-device-width: 320px) {
   .project {
     padding: 0;
     grid-template-rows: repeat(3, 0.03fr);
@@ -588,5 +640,4 @@
   .project-info {
     width: 35%;
   }
-
 }
