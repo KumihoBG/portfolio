@@ -25,7 +25,6 @@
     grid-gap: 6rem;
   }
 }
-/* end: 1280px */
 
 @media (min-width: 993px) and (max-width: 1024px) {
   .case-study-container {
@@ -37,9 +36,7 @@
     grid-gap: 2rem;
   }
 }
-/* end: 1024px */
 
-/* start: 992px */
 @media (min-width: 769px) and (max-width: 992px) {
   .case-study-container {
     padding: 2% 10%;
@@ -51,7 +48,6 @@
   }
 }
 
-/*start 768px */
 @media (max-width: 768px) {
   .case-study-container {
     padding: 2% 10%;
@@ -60,5 +56,13 @@
       "flashcard"
       "study";
     grid-gap: 2rem;
+  }
+}
+
+@media (max-width: 534px) and (max-height: 854px) {
+  .case-study-container,
+  .case-study {
+    width: 100%;
+    padding-left: 0;
   }
 }

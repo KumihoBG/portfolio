@@ -204,6 +204,36 @@ ion-icon:hover + .box,
   }
 }
 
+@media (max-width: 534px) and (max-height: 854px) {
+  .about-me {
+    width: 100vw;
+  }
+
+  .menu-container {
+    height: auto;
+    margin: 0 auto;
+    padding: 0 10px 0 0;
+    flex-basis: 100%;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .mobile {
+    display: block;
+    width: 80vw;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .box {
+    display: block;
+    margin-bottom: 30px;
+  }
+}
+
 @media (max-width: 500px) {
   .menu-container {
     padding: 5% 0 5% 3%;

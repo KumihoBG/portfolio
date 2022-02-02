@@ -56,7 +56,6 @@
     width: 120%;
   }
 }
-/* end: 1280px */
 
 @media (min-width: 993px) and (max-width: 1024px) {
   .magesnitza-container {
@@ -87,9 +86,7 @@
     text-align: center;
   }
 }
-/* end: 1024px */
 
-/* start: 992px */
 @media (min-width: 769px) and (max-width: 992px) {
   .magesnitza-container {
     padding: 5%;
@@ -120,7 +117,6 @@
   }
 }
 
-/*start 768px */
 @media (max-width: 768px) {
   .magesnitza-container {
     padding: 5%;
@@ -151,7 +147,24 @@
   }
 }
 
-/* start: 500px */
+@media (max-width: 534px) and (max-height: 854px) {
+  .study-images {
+    width: 90%;
+    height: auto;
+    margin: 5% auto;
+  }
+
+  .images h3 {
+    font-weight: 300;
+    width: 90%;
+    font-size: 16px;
+  }
+
+  .case-study-title {
+    font-size: 24px;
+  }
+}
+
 @media (max-width: 500px) {
   .back-link {
     padding: 30px 7%;
@@ -175,7 +188,6 @@
   }
 }
 
-/* iPhone 6, 7, 8 ----------- */
 @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
   .magesnitza-container {
     padding: 3% 5%;
