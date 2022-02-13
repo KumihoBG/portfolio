@@ -33,7 +33,7 @@
 
 .action {
   position: absolute;
-  bottom: -45px;
+  bottom: -60px;
   color: #fff;
   background: var(--dark-blue);
   border: 1px solid #78c8ed;
@@ -41,6 +41,7 @@
   padding: 5px 15px;
   text-align: center;
   width: 100%;
+  letter-spacing: 1.2px;
 }
 
 .menu.active li {
@@ -93,14 +94,18 @@
 
 ion-icon:hover + .box,
 .box:hover {
-  display: inline-block;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   position: absolute;
   top: -120%;
   z-index: 99998;
-  width: 500px;
-  height: 400px;
+  width: 200px;
+  height: 150px;
   transition: 0.5s;
   transform: rotate(calc(360deg / -7 * var(--i)));
+  border: 2px solid var(--dark-blue);
 }
 
 .box p {

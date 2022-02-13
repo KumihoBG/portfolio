@@ -10,12 +10,14 @@ footer {
 
 .footer-small {
   color: #fff;
-  font-size: 1em;
+  font-size: 15px;
   font-weight: 300;
 }
 
 .footer-small a {
   color: #fff;
+  font-size: 14px;
+  font-weight: 300;
 }
 
 @media (min-width: 993px) and (max-width: 1024px) {

@@ -1,0 +1,8 @@
+#info-box-text {
+    padding: 5% 10%;
+    text-align: justify;
+    white-space:pre-line;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 1.5;
+}
