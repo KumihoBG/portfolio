@@ -160,7 +160,6 @@ header ul li {
   text-align: center;
   text-transform: uppercase;
   font-size: 35px;
-  letter-spacing: 1px;
 }
 
 .call-to-action-h3 {
@@ -168,7 +167,6 @@ header ul li {
   text-align: center;
   padding: 10px;
   font-size: 30px;
-  letter-spacing: 1px;
 }
 
 /* start: media queries */

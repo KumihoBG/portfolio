@@ -1,6 +1,6 @@
 .content {
   transform: translateX(-100px);
-  width: 65%;
+  width: 70%;
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
   border-radius: 20px;
   backdrop-filter: blur(10px);
@@ -9,7 +9,7 @@
   border-left: 1px solid rgba(255, 255, 255, 0.5);
   padding: 40px;
   padding-left: 110px;
-  margin: 4% 0;
+  margin: 3% 0;
 }
 
 .content h2 {

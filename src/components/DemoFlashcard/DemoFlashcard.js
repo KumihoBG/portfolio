@@ -36,7 +36,7 @@ function Flashcard() {
     return (
         <div className="demo-container">
             <h1 className='demo-title'>Demo Flashcard</h1>
-            <h4 className='demo-text'><ion-icon name="color-wand-outline"></ion-icon> Click (hover with mouse) the flashcard to reveal functionality</h4>  
+            <h4 className='demo-text'><ion-icon name="color-wand-outline"></ion-icon> Hover over (Click on) the demo flashcard<br />to reveal functionality</h4>  
             <div className="demo-card" >
                 {cover}
                 {details}

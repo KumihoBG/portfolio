@@ -25,7 +25,6 @@
   color: #ccc;
   padding: 0 0 25% 0;
   line-height: 1.5;
-  width: 70%;
 }
 
 .demo-card {
@@ -173,7 +172,9 @@
     padding-left: 5%;
   }
 }
+/* end: 1280px */
 
+/* start: 1024px */
 @media (max-width: 1024px) {
   .demo-text {
     color: #ccc;
@@ -220,7 +221,9 @@
     font-size: 14px;
   }
 }
+/* end: 1024px */
 
+/* start: 992px */
 @media (min-width: 769px) and (max-width: 992px) {
   .demo-text {
     color: #ccc;
@@ -268,6 +271,7 @@
   }
 }
 
+/* Start: 993px*/
 @media (min-width: 993px) and (max-width: 1024px) {
   .demo-card {
     width: 250px;
@@ -275,6 +279,7 @@
   }
 }
 
+/*start 768px */
 @media (max-width: 768px) {
   .demo-card {
     width: 250px;
@@ -288,6 +293,12 @@
   .details .answer {
     font-size: 12px;
   }
+}
+/* end: 768px */
+
+/* iPhone 6, 7, 8 ----------- */
+@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
+  /* Styles */
 }
 
 @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
@@ -307,6 +318,7 @@
   }
 }
 
+/* Start: 360px */
 @media (max-width: 360px) {
   .demo-card {
     width: 250px;
@@ -324,6 +336,7 @@
   }
 }
 
+/* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .demo-card {
     width: 220px;
