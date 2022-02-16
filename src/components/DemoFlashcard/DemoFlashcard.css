@@ -4,52 +4,55 @@
   --dark-purple: #1c1320;
 }
 
-.demo-container {
+.flashcard-container {
   grid-area: flashcard;
   width: 100%;
   padding-left: 15%;
 }
 
-.demo-container ion-icon {
+.flashcard-container ion-icon {
   color: #ccc;
 }
 
-.demo-title {
+.flashcard-title {
   color: #d400d4;
   padding: 25% 0 5% 0;
   font-weight: 400;
   font-size: 24px;
 }
 
-.demo-text {
+.flashcard-text {
   color: #ccc;
   padding: 0 0 25% 0;
   line-height: 1.5;
 }
 
-.demo-card {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.flashcard {
   width: 400px;
   height: 500px;
-  background: var(--light-pink);
-  transform-style: preserve-3d;
-  margin: 0 2%;
-  cursor: pointer;
+  background: transparent;
   transform: perspective(2000px);
   transition: 1s;
 }
 
-.demo-card:hover {
-  transform: perspective(2000px) translateX(50%);
+.inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+  background: transparent;
 }
 
-.demo-card .cover {
+.inner:hover {
+  transform: rotateY(-180deg);
+}
+
+.flashcard .front {
   position: absolute;
   width: 100%;
   height: 100%;
-  z-index: 2;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -59,13 +62,13 @@
   transform-origin: left;
   color: #fff;
   text-align: center;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+  background: var(--light-pink);
+  z-index: 2;
 }
 
-.demo-card:hover {
-  transform: rotateY(-180deg);
-}
-
-.demo-card .details {
+.flashcard .back {
   position: absolute;
   top: 0;
   left: 0;
@@ -76,12 +79,14 @@
   align-items: center;
   overflow: hidden;
   text-align: center;
-  z-index: 1;
   transform: rotateY(180deg);
   color: #fff;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+  z-index: 1;
 }
 
-.demo-card::before {
+.inner::before {
   content: "";
   position: absolute;
   top: -4px;
@@ -92,7 +97,7 @@
   background: linear-gradient(315deg, #00ccff, var(--dark-purple), #d400d4);
 }
 
-.demo-card::after {
+.inner::after {
   content: "";
   position: absolute;
   top: -4px;
@@ -104,18 +109,17 @@
   filter: blur(50px);
 }
 
-.demo-card span {
+.flashcard span {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
   background: var(--dark-purple);
-  z-index: 10;
   font-size: 16px;
 }
 
-.demo-card ion-icon {
+.flashcard ion-icon {
   font-size: 40px;
   margin-right: 10px;
   cursor: pointer;
@@ -165,36 +169,33 @@
   font-weight: 500;
 }
 
-/* start: media queries */
 @media (max-width: 1280px) {
-  .demo-container {
+  .flashcard-container {
     width: 100%;
     padding-left: 5%;
   }
 }
-/* end: 1280px */
 
-/* start: 1024px */
 @media (max-width: 1024px) {
-  .demo-text {
+  .flashcard-text {
     color: #ccc;
     text-align: center;
     padding: 20px 0;
     line-height: 1.2;
   }
 
-  .demo-title {
+  .flashcard-title {
     padding: 20px;
     text-align: center;
   }
 
-  .demo-container {
+  .flashcard-container {
     width: 100%;
     height: auto;
     padding: 0;
   }
 
-  .demo-card {
+  .flashcard {
     margin: 5% auto;
     width: 500px;
     height: 600px;
@@ -213,37 +214,35 @@
     font-size: 18px;
   }
 
-  .cover h2 {
+  .front h2 {
     font-size: 18px;
   }
 
-  .details .answer {
+  .back .answer {
     font-size: 14px;
   }
 }
-/* end: 1024px */
 
-/* start: 992px */
 @media (min-width: 769px) and (max-width: 992px) {
-  .demo-text {
+  .flashcard-text {
     color: #ccc;
     text-align: center;
     padding: 20px 0;
     line-height: 1.2;
   }
 
-  .demo-title {
+  .flashcard-title {
     padding: 20px;
     text-align: center;
   }
 
-  .demo-container {
+  .flashcard-container {
     width: 100%;
     height: auto;
     padding: 0;
   }
 
-  .demo-card {
+  .flashcard {
     margin: 5% auto;
     width: 350px;
     height: 450px;
@@ -262,52 +261,44 @@
     font-size: 18px;
   }
 
-  .cover h2 {
+  .front h2 {
     font-size: 18px;
   }
 
-  .details .answer {
+  .back .answer {
     font-size: 14px;
   }
 }
 
-/* Start: 993px*/
 @media (min-width: 993px) and (max-width: 1024px) {
-  .demo-card {
+  .flashcard {
     width: 250px;
     height: 350px;
   }
 }
 
-/*start 768px */
 @media (max-width: 768px) {
-  .demo-card {
+  .flashcard {
     width: 250px;
     height: 350px;
   }
 
-  .cover h2 {
+  .front h2 {
     font-size: 16px;
   }
 
-  .details .answer {
+  .back .answer {
     font-size: 12px;
   }
 }
-/* end: 768px */
-
-/* iPhone 6, 7, 8 ----------- */
-@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
-  /* Styles */
-}
 
 @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
-  .demo-card {
+  .flashcard {
     width: 230px;
     height: 320px;
   }
 
-  .details-button {
+  .back-button {
     padding: 4px 15px;
     font-weight: 300;
     font-size: 12px;
@@ -318,14 +309,13 @@
   }
 }
 
-/* Start: 360px */
 @media (max-width: 360px) {
-  .demo-card {
+  .flashcard {
     width: 250px;
     height: 350px;
   }
 
-  .details-button {
+  .back-button {
     padding: 4px 15px;
     font-weight: 300;
     font-size: 12px;
@@ -336,9 +326,8 @@
   }
 }
 
-/* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
-  .demo-card {
+  .flashcard {
     width: 220px;
     height: 320px;
   }
