@@ -145,14 +145,13 @@ header ul li {
 }
 
 .about-me {
-  padding: 2%;
   display: flex;
-  flex-basis: 100%;
   align-items: center;
   flex-direction: column;
   width: 90vw;
   height: auto;
   margin: 0 auto;
+  position: relative;
 }
 
 .call-to-action {
@@ -169,7 +168,6 @@ header ul li {
   font-size: 30px;
 }
 
-/* start: media queries */
 @media (max-width: 1280px) {
   .home {
     display: block;
@@ -379,7 +377,6 @@ header ul li {
   }
 }
 
-/* iPhone 6, 7, 8 ----------- */
 @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
   .container {
     width: calc(100% - 10px);
