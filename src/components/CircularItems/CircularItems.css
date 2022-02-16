@@ -44,7 +44,6 @@
   transition: 0.5s;
   transition-delay: calc(0.1s * var(--i));
   transform: rotate(0deg) translateX(100px);
-  z-index: 1;
 }
 
 .action {
@@ -84,32 +83,40 @@
 
 .box {
   display: none;
-  width: 100%;
-  height: 100%;
+}
+
+li:hover .box {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: -150%;
+  width: 490px;
+  height: auto;
+  transition: 0.5s;
   background: #fff;
   padding: 10px;
   border-radius: 25px;
+  transform: rotate(calc(360deg / -7 * var(--i)));
 }
 
-ion-icon:hover + .box,
-.box:hover {
-  display: block;
+#my-story {
+  z-index: 10;
+}
+
+#my-story .box {
   position: absolute;
-  top: -300%;
-  left: -300%;
-  width: 600px;
-  height: auto;
-  transition: 0.5s;
-  transform: rotate(calc(360deg / -7 * var(--i)));
+  top: -150%;
 }
 
 #info-par {
   color: var(--dark-blue);
-  font-size: 16px;
+  font-size: 17px;
   font-weight: 300;
   margin-bottom: 10px;
   text-align: justify;
   padding: 3%;
+  letter-spacing: 0.5px;
+  white-space:pre-line;
 }
 
 .box h3 {
