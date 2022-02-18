@@ -9,8 +9,9 @@
   align-items: center;
   flex-direction: column;
   align-content: center;
-  width: 70vw;
+  width: 100vw;
   position: relative;
+  margin-bottom: 3%;
 }
 
 .menu {
@@ -116,7 +117,7 @@ li:hover .box {
   text-align: justify;
   padding: 3%;
   letter-spacing: 0.5px;
-  white-space:pre-line;
+  white-space: pre-line;
 }
 
 .box h3 {
@@ -125,7 +126,7 @@ li:hover .box {
   padding-top: 3%;
 }
 
-@media only screen and (min-device-width : 1366px) {
+@media only screen and (min-device-width: 1366px) {
   .toggle {
     width: 200px;
     height: 200px;
@@ -146,7 +147,7 @@ li:hover .box {
 
 @media (max-width: 1280px) {
   .menu {
-    margin-top: 0;
+    margin-top: 40%;
   }
 
   .menu li {
@@ -159,6 +160,7 @@ li:hover .box {
   .menu {
     width: 600px;
     height: 600px;
+    margin-top: 5%;
   }
 
   .toggle {
@@ -183,6 +185,7 @@ li:hover .box {
   .menu {
     width: 600px;
     height: 600px;
+    margin-top: 5%;
   }
 
   .menu li {
@@ -204,13 +207,14 @@ li:hover .box {
   }
 
   .menu {
-    width: 600px;
-    height: 600px;
+    width: 570px;
+    height: 570px;
+    margin-top: 3%;
   }
 
   .menu li {
-    transform-origin: 300px;
-    left: -126%;
+    transform-origin: 280px;
+    left: -115%;
   }
 
   .menu li ion-icon {
@@ -224,79 +228,88 @@ li:hover .box {
     width: 100vw;
   }
 
-  .menu-container {
-    height: auto;
-    margin: 0 auto;
-    padding: 0 10px 0 0;
-    flex-basis: 100%;
-  }
-
-  .menu {
+  #menu {
     display: none;
   }
 
   .mobile {
-    display: block;
-    width: 80vw;
-    min-height: 100vh;
-    margin: 0 auto;
-    padding: 0;
+    display: flex;
+    flex-direction: column;
+    background: #eee;
+    width: 90vw;
+    margin-top: 3%;
+    border-radius: 15px;
   }
 
   .box {
     display: block;
-    margin-bottom: 30px;
+    margin: 30px auto;
+    border: 1px solid var(--light-blue);
+    border-radius: 15px;
+  }
+
+  #info-par {
+    font-size: 15px;
   }
 }
 
 @media (max-width: 500px) {
+  .about-me {
+    width: 100%;
+    margin: 0 auto;
+  }
+
   .menu-container {
-    padding: 5% 0 5% 3%;
+    height: auto;
+    margin: 5% auto;
+    width: 100%;
+    padding-right: 15%;
   }
 
-  .toggle {
-    width: 135px;
-    height: 135px;
-    border: 2px solid var(--dark-blue);
+  .mobile {
+    display: flex;
+    flex-direction: column;
+    background: #eee;
+    width: 90vw;
+    margin-top: 3%;
+    margin-left: 18%;
+    border-radius: 15px;
   }
 
-  .menu {
-    width: 490px;
-    height: 490px;
+  .box {
+    display: block;
+    margin: 30px auto;
+    border: 1px solid var(--light-blue);
+    border-radius: 15px;
   }
 
-  .menu li {
-    transform-origin: 230px;
-    left: -130%;
+  #menu {
+    display: none;
   }
 
-  .menu li ion-icon {
-    width: 40px;
-    height: 40px;
-  }
-
-  .action {
-    padding: 5px 10px;
-  }
-
-  ion-icon:hover + .box,
-  .box:hover {
-    top: -120%;
-    width: 350px;
-    height: 250px;
+  #info-par {
+    font-size: 14px;
   }
 }
 
 @media (max-width: 414px) and (max-height: 896px) {
-  .menu li {
-    transform-origin: 200px;
-    left: -100%;
+  .mobile {
+    display: flex;
+    flex-direction: column;
+    background: #eee;
+    width: 80vw;
+    margin-top: 3%;
+    border-radius: 15px;
+  }
+
+  #info-par {
+    font-size: 13px;
   }
 }
 
-@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
+@media only screen and (min-device-width: 667px) and (max-device-height: 375px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
   .menu-container {
-    padding: 3% 0 3% 3%;
+    padding: 0;
   }
 
   .toggle {
@@ -340,15 +353,12 @@ li:hover .box {
     width: 375px;
   }
 
-  .menu {
-    display: none;
-  }
-
   .mobile {
     display: block;
-    width: 80vw;
+    width: 90vw;
     min-height: 100vh;
     margin: 0 auto;
+    margin-right: 2%;
     padding: 0;
   }
 
@@ -365,14 +375,13 @@ li:hover .box {
     margin: 2% 0 10% 0;
   }
 
-  .menu {
-    display: none;
-  }
-
   .mobile {
     display: block;
     width: 90vw;
     min-height: 100vh;
+    margin: 0 auto;
+    margin-right: 5%;
+    padding: 0;
   }
 
   .box {

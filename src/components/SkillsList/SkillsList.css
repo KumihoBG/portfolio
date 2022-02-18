@@ -1,9 +1,9 @@
 .skills-list-container {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
-  width: 70%;
+  width: 80%;
   padding: 3% 2%;
   border: 1px solid rgba(255, 255, 255, 0.5);
   border-right: 1px solid rgba(255, 255, 255, 0.2);
@@ -12,7 +12,7 @@
   background: rgba(255, 255, 255, 0.1);
   box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
   text-align: start;
-  margin: 3% 0;
+  margin: 3% auto;
   min-width: 350px;
   min-height: 400px;
   z-index: 10;
@@ -65,29 +65,35 @@
 
 @media (max-width: 1280px) {
   .skills-list-container {
-    width: 80%;
+    width: 100%;
     padding: 5%;
+    margin-top: 40%;
   }
 }
-/* end: 1280px */
 
 @media (min-width: 993px) and (max-width: 1024px) {
   .skills-list-container {
-    width: 90%;
+    width: 100%;
     padding: 5%;
+    margin-top: 5%;
   }
 }
-/* end: 1024px */
 
-/*start 768px */
-@media (max-width: 768px) {
+@media(max-width: 992px) {
   .skills-list-container {
     width: 100%;
     padding: 3%;
+    margin-top: 5%;
   }
 }
 
-/* start: 500px */
+@media (max-width: 768px) {
+  .skills-list-container {
+    max-width: 80vw;
+    padding: 20px;
+  }
+}
+
 @media (max-width: 500px) {
   .skills-list-container {
     width: 95vw;
@@ -95,7 +101,12 @@
   }
 }
 
-/* iPhone 6, 7, 8 ----------- */
+@media (max-width: 414px) and (max-height: 896px) {
+  .skills-list-container {
+    padding-right: 5%;
+  }
+}
+
 @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
   .skills-list-container h2,
   .box p,
@@ -125,7 +136,6 @@
   }
 }
 
-/* start: 360px */
 @media (max-width: 360px) {
   .skills-list-container h2,
   .box p,
@@ -135,7 +145,6 @@
   }
 }
 
-/* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .skills-list-container h2,
   .box p,

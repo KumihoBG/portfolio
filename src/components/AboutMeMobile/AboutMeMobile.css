@@ -1,11 +1,20 @@
-.mobile {
-    display: none;
+@media (max-width: 534px) {
+  .mobile {
+    display: flex;
+    background: #eee;
+    width: 90vw;
+    margin-top: 3%;
+    border-radius: 15px;
+  }
 }
 
-
-/* start: 360px */
-@media (max-width: 360px) {
-    .mobile {
-        display: block;
-    }
+@media (max-width: 500px) {
+  .mobile {
+    display: flex;
+    flex-direction: column;
+    background: #eee;
+    width: 90vw;
+    margin-top: 3%;
+    border-radius: 15px;
+  }
 }

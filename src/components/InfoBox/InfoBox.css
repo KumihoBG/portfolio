@@ -2,4 +2,10 @@
     white-space: pre-line;
 }
 
+@media (max-width: 534px) {
+    .info-box-container {
+        padding: 5px 20px;
+    }
+}
+
   

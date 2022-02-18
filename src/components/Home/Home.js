@@ -57,10 +57,12 @@ function Home() {
                 <Icons />
             </div>
         </section>
-        
-        <h1 className='call-to-action'>Get to know me better</h1>
-        <h3 className='call-to-action-h3'>Find out who I am, where I come from and what I do</h3>
 
+        <div className="titles">
+            <h1 className='call-to-action'>Get to know me better</h1>
+            <h3 className='call-to-action-h3'>Find out who I am, where I come from and what I do</h3>
+        </div>
+        
         <section className='about-me'>
             <CircularItems />
             <SkillsList />

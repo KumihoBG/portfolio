@@ -292,6 +292,13 @@
   }
 }
 
+@media (max-width: 500px) {
+  .flashcard-text {
+    width: 60%;
+    margin: 0 auto;
+  }
+}
+
 @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
   .flashcard {
     width: 230px;

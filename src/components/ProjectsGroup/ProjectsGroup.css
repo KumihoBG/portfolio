@@ -6,7 +6,6 @@
   margin: 3% 0;
 }
 
-/* start: media queries */
 @media (max-width: 1280px) {
   .group {
     padding: 0;
@@ -17,20 +16,31 @@
     font-size: 30px;
   }
 }
-/* end: 1280px */
 
-/*start 768px */
 @media (max-width: 768px) {
+  .group {
+    width: 100vw;
+    padding-left: 10%;
+    margin: 0 auto;
+    height: auto;
+  }
+
   .projects-title {
     font-size: 25px;
+    padding-right: 10%;
   }
 }
 
-/* iPhone 6, 7, 8 ----------- */
-@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2) {
-  /* Styles */
+@media (max-width: 534px) {
+  .group {
+    width: 100vw;
+    margin-top: 5%;
+    height: auto;
+  }
 }
 
-@media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2) {
-  
+@media (max-width: 534px) and (max-height: 854px) {
+  .projects-title {
+    margin: 5% auto;
+  }
 }
