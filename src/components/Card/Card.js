@@ -1,6 +1,6 @@
 import React from 'react';
 import '../Card/Card.css';
-import pavleta from '../../images/me.png';
+import pavleta from '../../images/character.png';
 
 function Card() {
     return (

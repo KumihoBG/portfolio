@@ -15,7 +15,7 @@ function CircularItems() {
             <AboutMeMobile />
             <div id="menu" className={isActive ? "menu" : 'menu active'}>
                 <div onClick={handleToggle} className="toggle">
-                    <p className="action">Click Me</p>
+                    <p className="action">About me</p>
                     <li className="menu-item" id="my-story" style={{ '--i': 0 }}>
                         <ion-icon className="icons" name="chatbox-ellipses-outline"></ion-icon>
                         <InfoBox title="My Story" text={'My professional career experienced a number of upheavals, and as a result, I decided to study programming, which began long ago, in the distant 2014, when I even quit my job and enrolled to study C# at Telerik Academy.This was my best decision back then, but unfortunately it didn\'t last long-I had a child and a family to take care of, so I went back to law.\nIt seems that my true passion attracts me all the time, so I decided to start studying all over again.\nThis time I prepared in advance what knowledge I would need, made a plan and boldly enrolled to study at SoftUni Academy. I crossed the JS trail; the road was not easy, but it was full of excitement, a lot of new knowledge, and tears of joy! In December 2021, I defended my project and graduated.'} />
