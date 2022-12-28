@@ -7,8 +7,8 @@ function ProjectComponent({ projectName, image, alt, linkOne, linkTwo, title, de
     <div className="project">
       <div className="project-image">
         <img src={image} alt={alt} />
-        <Link to={`/case-study/${projectName}`} rel="noreferrer" className="view-project">Case Study</Link>
-        <a href={linkTwo} rel="noreferrer" className="view-project">View Project</a>
+        <Link to={`/case-study/${projectName}`} target="_blank" rel="noreferrer" className="view-project">Case Study</Link>
+        <a href={linkTwo} target="_blank" rel="noreferrer" className="view-project">View Project</a>
       </div>
       <div className="project-info">
         <div className="project-card">
