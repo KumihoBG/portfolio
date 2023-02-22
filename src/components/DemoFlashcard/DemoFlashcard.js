@@ -1,3 +1,4 @@
+import React from 'react';
 import '../DemoFlashcard/DemoFlashcard.css';
 import { Link } from 'react-router-dom';
 
